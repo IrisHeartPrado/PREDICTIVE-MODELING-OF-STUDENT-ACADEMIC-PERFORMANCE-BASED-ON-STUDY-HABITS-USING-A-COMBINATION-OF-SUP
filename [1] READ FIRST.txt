@@ -1,4 +1,4 @@
-READ FIRST
+!!READ FIRST!!
 
 GOAL: 
 Make a predictive model for student academic performance based on their Year, Final Grades, Subject Failed(Number of their failed subject/s), and their study habits
@@ -71,8 +71,30 @@ TRAINING FOR RANDOM FOREST
 META LEARNER 
 (9) Train the Stacking Model using the Logistic Regression 
 (9.1) Loaded the base model using pickle 
-(9.2) Loaded the csv file of the preprocessed data (yung ginamit tong data pang train sa base learner, dinownload ko lang as csv) 
+(9.2) Loaded the csv file of the preprocessed data 
 (9.3) Getting the X and Y variable
 (9.4) Used a function that will get the prediction out of the base learner 
 (9.5) Created a function for the stacking method
 (9.6) Implement the stacking method to combine predictions and train the meta-learner.
+
+INSTRUCTIONS
+Option 1: Run the Program via Terminal
+
+Set Up the Environment: 
+Ensure that you have Python installed on your system. You can check by running python --version in the terminal. 
+If Python is not installed, download and install it from the official Python website.
+Version used: Python 3.11
+
+Install Dependencies:
+If you haven’t already, install the necessary libraries required for the program. You can do this by running: bash
+pip install -r requirements.txt
+
+
+Running the Program:
+Open a terminal and navigate to the directory where the program files (main.py, test.csv, new_data.csv) 
+are located.
+Run the following command to start the program: bash
+python main.py --data test.csv --output prediction.csv --true_labels new_data.csv
+
+Option 2: Check Results in Jupyter Notebook
+If you prefer not to run or set up the environment, you can simply check the results by opening the Stacking_model_2.ipynb Jupyter notebook

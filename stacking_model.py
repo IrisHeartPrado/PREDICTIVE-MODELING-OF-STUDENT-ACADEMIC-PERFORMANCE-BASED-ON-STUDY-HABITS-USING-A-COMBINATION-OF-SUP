@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import pickle
@@ -117,6 +117,11 @@ def stacking_ensemble(X, y, rf_model, svm_model):
     
 from sklearn.metrics import accuracy_score, classification_report
 
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
 def predict_new_data(meta_model, rf_model, svm_model, test_data_path, preprocessor, true_labels_path=None):
     try:
         # Load test data
@@ -159,6 +164,34 @@ def predict_new_data(meta_model, rf_model, svm_model, test_data_path, preprocess
             report = classification_report(true_labels, final_predictions)
             print("Classification Report:\n", report)
 
+            # Confusion Matrix Visualization
+            conf_matrix = confusion_matrix(true_labels, final_predictions)
+            disp = ConfusionMatrixDisplay(confusion_matrix=conf_matrix, display_labels=['Irregular', 'Regular'])
+            disp.plot(cmap='Blues')
+            plt.title("Confusion Matrix: Predictions vs True Labels")
+            plt.show()
+
+            comparison_df = pd.DataFrame({
+                'Index': np.arange(len(true_labels)),
+                'True Labels': true_labels,
+                'Predictions': final_predictions
+            })
+
+            comparison_df['Correct'] = comparison_df['True Labels'] == comparison_df['Predictions']
+
+            # Count correct and wrong predictions
+            summary = comparison_df['Correct'].value_counts().reset_index()
+            summary.columns = ['Correct', 'Count']
+            summary['Correct'] = summary['Correct'].map({True: 'Correct', False: 'Wrong'})
+
+            # Plot the results
+            plt.figure(figsize=(8, 5))
+            sns.barplot(data=summary, x='Correct', y='Count', palette=['green', 'red'])
+            plt.title("Number of Correct and Wrong Predictions")
+            plt.xlabel("Prediction Type")
+            plt.ylabel("Count")
+            plt.show()
+
         return final_predictions
 
     except FileNotFoundError:
@@ -167,7 +200,6 @@ def predict_new_data(meta_model, rf_model, svm_model, test_data_path, preprocess
     except Exception as e:
         print("Error during prediction:", e)
         return None
-
 
 
 
@@ -186,7 +218,7 @@ if __name__ == "__main__":
     predict_new_data(meta_model, rf_model, svm_model, 'test.csv', preprocessor, 'new_data.csv')
 
 
-# In[2]:
+# In[ ]:
 
 
 import nbformat
