@@ -449,8 +449,8 @@ correlation_matrix
 
 plt.figure(figsize=(10,8))
 sns.heatmap(correlation_matrix, annot=True, fmt='.2f', annot_kws={"size": 5})
-plt.xticks(rotation=45)  # Rotate x-axis labels
-plt.yticks(rotation=0)   # Rotate y-axis labels
+plt.xticks(rotation=45)  
+plt.yticks(rotation=0)   
 plt.show()
 
 
@@ -634,7 +634,7 @@ y_train_augmented = np.hstack((y_train, np.random.choice(y_train, num_synthetic_
 
 # TRAINING RANDOM FOREST 
 
-# In[47]:
+# In[ ]:
 
 
 from sklearn.feature_selection import SelectKBest, f_classif
@@ -663,7 +663,7 @@ print('Mean cross-validation score:', np.mean(cv_scores))
 print('Standard deviation of cross-validation score:', np.std(cv_scores))
 
 
-# In[48]:
+# In[ ]:
 
 
 pipeline_rf.fit(X_train_augmented, y_train_augmented)
@@ -696,7 +696,7 @@ with open('RANDOM FOREST_GANS_25 convert.py', 'w') as f:
     f.write(python_script)
 
 
-# In[52]:
+# In[ ]:
 
 
 import pickle
