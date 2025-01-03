@@ -15,7 +15,7 @@ plt.style.use('ggplot') #Styling
 pd.set_option('display.max_columns',200) # To show up to 200 columns when displaying DataFrames.
 
 # Handling Imbalance data
-from imblearn.over_sampling import ADASYN
+from imblearn.over_sampling import ADASYN, SMOTE
 
 # Standarlization 
 from sklearn.preprocessing import StandardScaler
@@ -58,7 +58,7 @@ import pickle
 # 
 # Teachers Consultation  - Do you regularly consult with your teachers outside of class? Yes/No 
 
-# In[ ]:
+# In[2]:
 
 
 from stdInfo_Function import Student
@@ -68,7 +68,7 @@ student_info = student.std_info_dt()
 print(student_info)
 
 
-# In[ ]:
+# In[3]:
 
 
 from stdGrade_Function import GrdSystem
@@ -78,7 +78,7 @@ student_grades = students.overall_dt_stdGrades()
 print(student_grades)
 
 
-# In[ ]:
+# In[4]:
 
 
 from StudyHbtsSurvey_Function import S_H_Survey
@@ -90,7 +90,7 @@ print(student_survey)
 
 # Concatenating Dataframes 
 
-# In[ ]:
+# In[5]:
 
 
 concat_data = pd.merge(student_grades, student_survey, how= "left", on= ["Student Number", "Name", "Year"])
@@ -111,7 +111,7 @@ concat_data.shape
 concat_data.dtypes
 
 
-# In[8]:
+# In[ ]:
 
 
 concat_data.describe()
@@ -195,48 +195,48 @@ concat_data.dtypes
 concat_data.isnull().sum()
 
 
-# In[ ]:
+# In[16]:
 
 
 sns.heatmap(concat_data.isnull(), yticklabels=False, cbar=False, cmap='viridis')
 
 
-# In[ ]:
+# In[17]:
 
 
 sns.set_style('whitegrid')
 sns.countplot(x='Status', hue='Homework', data=concat_data, palette='Paired')
 
 
-# In[ ]:
+# In[18]:
 
 
 sns.set_style('whitegrid')
 sns.countplot(x='Status', hue='Time_Allocation', data=concat_data, palette='Paired')
 
 
-# In[ ]:
+# In[19]:
 
 
 sns.set_style('whitegrid')
 sns.countplot(x='Status', hue='Reading_and_Note_Taking', data=concat_data, palette='Paired')
 
 
-# In[ ]:
+# In[20]:
 
 
 sns.set_style('whitegrid')
 sns.countplot(x='Status', hue='Study_Period_Procedures', data=concat_data, palette='Paired')
 
 
-# In[ ]:
+# In[21]:
 
 
 sns.set_style('whitegrid')
 sns.countplot(x='Status', hue='Examination', data=concat_data, palette='Paired')
 
 
-# In[ ]:
+# In[22]:
 
 
 sns.set_style('whitegrid')
@@ -349,7 +349,7 @@ features_dummies = features_dummies.astype(int)
 features_dummies
 
 
-# In[32]:
+# In[ ]:
 
 
 # Converting using labelencoder 
@@ -365,7 +365,7 @@ concat_data['Status'] = label_encoder.fit_transform(concat_data['Status'])
 concat_data
 
 
-# In[33]:
+# In[ ]:
 
 
 # Concatenate the dummies with the original data
@@ -383,7 +383,7 @@ concat_data_updated.head()
 concat_data_updated.columns
 
 
-# In[ ]:
+# In[35]:
 
 
 concat_data_updated = concat_data_updated[['Year', 'Final_Grade', 'Subjects_Failed', 'Homework',
@@ -442,7 +442,7 @@ correlation_matrix = columnStatus_for_correlation.corr()
 correlation_matrix
 
 
-# In[ ]:
+# In[41]:
 
 
 plt.figure(figsize=(10,8))
@@ -453,23 +453,6 @@ plt.show()
 
 
 # TRAINING SVM MODEL
-# 
-# Identifying right hyperparameter 
-
-# In[ ]:
-
-
-param_grid_svm = {'C': [0.1, 1, 10, 100],
-                'gamma': [1, 0.1, 0.01, 0.001],
-                    }  
-
-svc = SVC(kernel='rbf')
-
-grid = GridSearchCV(svc, param_grid_svm, refit=True, verbose=2, cv=5)
-grid.fit(x_train, y_train)
-
-print(grid.best_params_)
-
 
 # Creating pipeline to avoid data leakage wherein: 
 # 
@@ -496,7 +479,25 @@ print('Mean cross-validation score:', np.mean(cv_scores))
 print('Standard deviation of cross-validation score:', np.std(cv_scores))
 
 
-# In[ ]:
+# In[43]:
+
+
+from sklearn.inspection import permutation_importance
+
+pipeline_svm.fit(x_train, y_train)
+
+perm_importance = permutation_importance(pipeline_svm, x_test, y_test, n_repeats=10, random_state=25)
+
+importance_scores = perm_importance.importances_mean
+
+# Sort the features by importance
+sorted_idx = np.argsort(importance_scores)[::-1]
+
+for idx in sorted_idx:
+    print(f"Feature: {x_train.columns[idx]}, Importance: {importance_scores[idx]}")
+
+
+# In[45]:
 
 
 from sklearn.inspection import permutation_importance
@@ -537,7 +538,55 @@ print('Classification Report on Training Set:')
 print(classification_report(y_train, train_pred_svm))
 
 
-# In[47]:
+# In[49]:
+
+
+from sklearn.metrics import confusion_matrix
+
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred_svm))
+
+
+# In[ ]:
+
+
+svm = SVC(random_state=25)
+
+param_grid_svm = {
+    'C': [0.01, 0.02, 0.03],
+    'gamma': [0.1, 0.2, 0.3],
+    'kernel': ['linear', 'rbf', 'poly']
+}
+
+grid = GridSearchCV(svm, param_grid_svm, refit=True, verbose=2, cv=5)
+grid.fit(x_train, y_train)
+
+print(grid.best_params_)
+print("Best score found: ", grid.best_score_)
+
+
+# In[51]:
+
+
+from sklearn.model_selection import RandomizedSearchCV
+from scipy.stats import uniform
+
+svm = SVC(random_state=25)
+
+param_dist = {
+    'C': uniform(0.1, 20),  
+    'gamma': uniform(0.1, 1),
+    'kernel': ['linear', 'rbf', 'poly']
+}
+
+random = RandomizedSearchCV(svm, param_distributions=param_dist, n_iter=10, cv=5, random_state=25, verbose=2) 
+random.fit(x_train, y_train)
+
+print(random.best_params_)
+print("Best score found: ", random.best_score_)
+
+
+# In[52]:
 
 
 import nbformat
@@ -556,9 +605,15 @@ with open('SVM_Solo_woGans_convert.py', 'w') as f:
     f.write(python_script)
 
 
-# In[47]:
+# In[53]:
 
 
 with open('SVM_Solo_woGans_convert.pkl', 'wb') as f:
     pickle.dump(pipeline_svm, f)
+
+
+# In[ ]:
+
+
+
 

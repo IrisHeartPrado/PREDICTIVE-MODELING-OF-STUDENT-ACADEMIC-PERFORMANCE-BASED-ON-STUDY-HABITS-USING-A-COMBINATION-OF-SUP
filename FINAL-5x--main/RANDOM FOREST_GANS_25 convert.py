@@ -22,7 +22,6 @@ from imblearn.over_sampling import SMOTE
 
 # Standarlization 
 from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MinMaxScaler
 
 # For pipeline to avoid data leakage 
 from imblearn.pipeline import Pipeline as ImbPipeline
@@ -386,7 +385,7 @@ concat_data_updated.head()
 concat_data_updated.columns
 
 
-# In[35]:
+# In[ ]:
 
 
 concat_data_updated = concat_data_updated[['Year', 'Final_Grade', 'Subjects_Failed', 'Homework',
@@ -406,211 +405,20 @@ concat_data_updated
 concat_data_updated.dtypes
 
 
-# GANS
-
-# In[37]:
-
-
-import ctgan.synthesizers.ctgan as ctgan_mod
-print(dir(ctgan_mod))
-
-
-# In[38]:
-
-
-from ctgan import CTGAN
-
-ctgan = CTGAN(
-    generator_dim=(512, 512, 256),
-    discriminator_dim=(512, 256, 128),
-    epochs=3000,
-    batch_size=32,
-    verbose=True,
-    pac=4,
-)
-
-
-
-
-# In[39]:
-
-
-# Preprocessing Continuous Features
-from scipy.stats import skew
-
-scaler = MinMaxScaler(feature_range=(0, 1))
-continuous_features = ['Final_Grade', 'Subjects_Failed', 'Examination']
-
-for col in continuous_features:
-    if skew(concat_data_updated[col]) > 1:  # Log-transform skewed features
-        concat_data_updated[col] = np.log1p(concat_data_updated[col])
-
-concat_data_updated[continuous_features] = scaler.fit_transform(concat_data_updated[continuous_features])
-
-print(concat_data_updated[continuous_features].describe())
-
-
-# In[40]:
-
-
-concat_data_updated['Final_Grade_Binned'] = pd.cut(
-    concat_data_updated['Final_Grade'],
-    bins=[0, 0.5, 0.7, 1.0], 
-    labels=['Low', 'Medium', 'High']
-)
-
-concat_data_updated['Subjects_Failed_Binned'] = pd.cut(
-    concat_data_updated['Subjects_Failed'],
-    bins=[-1, 0.2, 0.5, 1.0], 
-    labels=['None', 'Few', 'Many']
-)
-
-
-# In[41]:
-
-
-status_counts = concat_data_updated['Status'].value_counts()
-
-n_irregular = status_counts[0]
-n_regular = status_counts[1]
-
-print(f"Regular Students: {n_regular}, Irregular Students: {n_irregular}")
-
-
-# In[42]:
-
-
-# Train the CTGAN Model
-
-discrete_columns = ['Status', 'Time_Allocation_Fair', 'Time_Allocation_Good', 'Time_Allocation_Poor',
-                    'Study_Period_Procedures_Flashcards', 'Study_Period_Procedures_Group Discussions',
-                    'Study_Period_Procedures_Pomodoro', 'Study_Period_Procedures_Summarizing', 'Final_Grade_Binned',
-                    'Subjects_Failed_Binned']
-
-ctgan.fit(concat_data_updated, discrete_columns=discrete_columns)
-
-
-# In[43]:
-
-
-# Generate Synthetic Data
-synthetic_data = ctgan.sample(n=1248)
-
-
-# In[44]:
-
-
-# Post-processing: Fix extreme values for "Examination"
-synthetic_data['Examination'] = synthetic_data['Examination'].clip(
-    lower=concat_data_updated['Examination'].min(),
-    upper=concat_data_updated['Examination'].max()
-)
-
-# Additional post-processing (if needed)
-for column in continuous_features:  # Adjust distributions
-    synthetic_data[column] = synthetic_data[column].clip(
-        lower=concat_data_updated[column].min(),
-        upper=concat_data_updated[column].max()
-    )
-
-# Validate synthetic data
-synthetic_data.describe()
-
-
-# In[54]:
-
-
-# Drop Binned Columns
-binned_columns = ['Final_Grade_Binned', 'Subjects_Failed_Binned']
-
-synthetic_data.drop(columns=binned_columns, inplace=True)
-
-synthetic_data
-
-
-# In[56]:
-
-
-#Visualization for the distribution of numerical features between the original and synthetic datasets.
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-numerical_columns = ['Final_Grade', 'Subjects_Failed', 'Homework']
-
-for col in numerical_columns:
-    plt.figure(figsize=(8, 4))
-    sns.kdeplot(concat_data_updated[col], label='Original', shade=True)
-    sns.kdeplot(synthetic_data[col], label='Synthetic', shade=True)
-    plt.title(f'Distribution of {col}')
-    plt.legend()
-    plt.show()
-
-
-# In[57]:
-
-
-#Visualization for the distribution of categorical features between the original and synthetic datasets.
-categorical_columns = ['Status', 'Time_Allocation_Fair', 'Time_Allocation_Good']
-
-for col in categorical_columns:
-    plt.figure(figsize=(6, 4))
-    original_counts = concat_data_updated[col].value_counts()
-    synthetic_counts = synthetic_data[col].value_counts()
-
-    bar_width = 0.35
-    index = range(len(original_counts))
-
-    plt.bar(index, original_counts.values, bar_width, label='Original', alpha=0.7)
-    plt.bar([i + bar_width for i in index], synthetic_counts.values, bar_width, label='Synthetic', alpha=0.7)
-    plt.title(f'Distribution of {col}')
-    plt.xticks([i + bar_width / 2 for i in index], original_counts.index, rotation=45)
-    plt.legend()
-    plt.show()
-
-
-# In[58]:
-
-
-# Summary statistics comparison
-print("Original Data Statistics:")
-print(concat_data_updated.describe())
-
-print("\nSynthetic Data Statistics:")
-print(synthetic_data.describe())
-
-
-# In[59]:
-
-
-import pandas as pd
-
-#Combining the original and synthetic data 
-combined_data = pd.concat([concat_data_updated, synthetic_data], ignore_index=True)
-
-
-# In[60]:
-
-
-from sklearn.utils import shuffle
-
-# Shuffle the combined dataset to ensure it doesn’t have patterns based on the original vs. synthetic data split.
-combined_data = shuffle(combined_data, random_state=42)
-
-
 # Independent variables are the predictor or the features that will help us predict whether the student has probability to be a irregular student for the next semester or will probably stay as regular student based on their study habits that is gathered through the survey and final grades
 
 # Dependent variable is the target variable or what we are trying to know which is the status of the student
 
-# In[61]:
+# In[37]:
 
 
 # Dependent(y) and Independent(x) Variable segregation 
 
-x = combined_data.drop(['Status'], axis=1)
-y = combined_data['Status']
+x = concat_data_updated.drop(['Status'], axis=1)
+y = concat_data_updated['Status']
 
 
-# In[62]:
+# In[38]:
 
 
 #Data Spliting (Training and Testing Set)
@@ -618,7 +426,7 @@ y = combined_data['Status']
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=25)
 
 
-# In[63]:
+# In[39]:
 
 
 y_train_df = y_train.rename("Target")
@@ -630,100 +438,236 @@ columnStatus_for_correlation = pd.concat([x_train, y_train_df], axis=1)
 correlation_matrix = columnStatus_for_correlation.corr()
 
 
-# In[50]:
+# In[ ]:
 
 
 correlation_matrix
 
 
-# In[51]:
+# In[41]:
 
 
 plt.figure(figsize=(10,8))
 sns.heatmap(correlation_matrix, annot=True, fmt='.2f', annot_kws={"size": 5})
-plt.xticks(rotation=45)  # Rotate x-axis labels
-plt.yticks(rotation=0)   # Rotate y-axis labels
+plt.xticks(rotation=45)  
+plt.yticks(rotation=0)   
 plt.show()
+
+
+# In[42]:
+
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import numpy as np
+
+seed = 25
+random.seed(seed)
+np.random.seed(seed)
+torch.manual_seed(seed)
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(seed)
+
+# Set the latent dimension for noise input to the generator
+latent_dim = 100  # Number of dimensions in the random noise vector
+input_dim = x_train.shape[1]  # Number of features in your dataset
+
+# Generator Model
+class Generator(nn.Module):
+    def __init__(self, input_dim, output_dim):
+        super(Generator, self).__init__()
+        self.net = nn.Sequential(
+            nn.Linear(input_dim, 128),
+            nn.ReLU(),
+            nn.Linear(128, 256),
+            nn.ReLU(),
+            nn.Linear(256, output_dim)
+        )
+
+    def forward(self, x):
+        return self.net(x)
+
+# Discriminator Model
+class Discriminator(nn.Module):
+    def __init__(self, input_dim):
+        super(Discriminator, self).__init__()
+        self.net = nn.Sequential(
+            nn.Linear(input_dim, 256),
+            nn.LeakyReLU(0.2),
+            nn.Linear(256, 128),
+            nn.LeakyReLU(0.2),
+            nn.Linear(128, 1),
+            nn.Sigmoid()
+        )
+
+    def forward(self, x):
+        return self.net(x)
+
+# Initialize the generator and discriminator
+generator = Generator(latent_dim, input_dim)
+discriminator = Discriminator(input_dim)
+
+# Loss function and optimizers
+criterion = nn.BCELoss()
+optimizer_G = optim.Adam(generator.parameters(), lr=0.0002)
+optimizer_D = optim.Adam(discriminator.parameters(), lr=0.0002)
+
+
+# In[43]:
+
+
+# Training parameters
+num_epochs = 10000
+batch_size = 100
+
+# Convert x_train to a NumPy array first
+X_train_tensor = torch.Tensor(x_train.values)  # Use `.values` to get the underlying NumPy array
+
+for epoch in range(num_epochs):
+    # Discriminator training
+    real_data = X_train_tensor[torch.randint(0, X_train_tensor.size(0), (batch_size,))]
+    real_labels = torch.ones(batch_size, 1)  # Real data labels are 1
+
+    z = torch.randn(batch_size, latent_dim)
+    fake_data = generator(z)
+    fake_labels = torch.zeros(batch_size, 1)  # Fake data labels are 0
+
+    optimizer_D.zero_grad()
+    real_loss = criterion(discriminator(real_data), real_labels)
+    fake_loss = criterion(discriminator(fake_data.detach()), fake_labels)
+    d_loss = real_loss + fake_loss
+    d_loss.backward()
+    optimizer_D.step()
+
+    # Generator training
+    optimizer_G.zero_grad()
+    fake_labels = torch.ones(batch_size, 1)  # Trick discriminator by labeling fake data as real
+    g_loss = criterion(discriminator(fake_data), fake_labels)
+    g_loss.backward()
+    optimizer_G.step()
+
+    if epoch % 100 == 0:
+        print(f"Epoch [{epoch}/{num_epochs}] | D Loss: {d_loss.item():.4f} | G Loss: {g_loss.item():.4f}")
+
+
+# In[44]:
+
+
+#  Wasserstein GAN (WGAN-GP), a variation of GANs, to improve training stability and enforce the 1-Lipschitz constraint on the Discriminator (now often called the Critic in WGANs).
+def compute_gradient_penalty(real_data, fake_data, discriminator):
+    alpha = torch.rand(real_data.size(0), 1, 1, 1).to(real_data.device)
+    interpolated = alpha * real_data + (1 - alpha) * fake_data
+    interpolated.requires_grad_(True)
+
+    d_interpolated = discriminator(interpolated)
+    gradients = torch.autograd.grad(outputs=d_interpolated, inputs=interpolated,
+                                    grad_outputs=torch.ones_like(d_interpolated),
+                                    create_graph=True, retain_graph=True)[0]
+    gradients = gradients.view(gradients.size(0), -1)
+    gradient_penalty = ((gradients.norm(2, dim=1) - 1) ** 2).mean()
+    return gradient_penalty
+
+# Hyperparameters
+gradient_penalty_weight = 10.0 
+label_smoothing_value = 0.9 
+
+# Optimizers and schedulers
+optimizer_D = torch.optim.Adam(discriminator.parameters(), lr=0.0004, betas=(0.5, 0.999))
+optimizer_G = torch.optim.Adam(generator.parameters(), lr=0.0004, betas=(0.5, 0.999))
+scheduler_D = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer_D, mode='min', factor=0.5, patience=10)
+scheduler_G = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer_G, mode='min', factor=0.5, patience=10)
+
+# Training loop with the updated variable name for gradient penalty
+for epoch in range(num_epochs):
+    # Discriminator update with gradient penalty
+    optimizer_D.zero_grad()
+    real_data = X_train_tensor[torch.randint(0, X_train_tensor.size(0), (batch_size,))]
+    real_data += 0.05 * torch.randn(real_data.size()).to(real_data.device)  # Add noise to real data
+    real_labels = torch.full((batch_size, 1), label_smoothing_value).to(real_data.device)  # Label smoothing
+
+    z = torch.randn(batch_size, latent_dim).to(real_data.device)
+    fake_data = generator(z)
+    fake_data += 0.05 * torch.randn(fake_data.size()).to(fake_data.device)  # Add noise to fake data
+
+    d_loss_real = criterion(discriminator(real_data), real_labels)
+    d_loss_fake = criterion(discriminator(fake_data.detach()), torch.zeros(batch_size, 1).to(real_data.device))
+    gp = compute_gradient_penalty(real_data, fake_data, discriminator) * gradient_penalty_weight
+    d_loss = d_loss_real + d_loss_fake + gp
+    d_loss.backward()
+    optimizer_D.step()
+
+    # Generator update
+    optimizer_G.zero_grad()
+    z = torch.randn(batch_size, latent_dim).to(real_data.device)
+    fake_data = generator(z)
+    g_loss = criterion(discriminator(fake_data), real_labels)  # We want G to fool D
+    g_loss.backward()
+    optimizer_G.step()
+
+    # Step the schedulers
+    scheduler_D.step(d_loss)
+    scheduler_G.step(g_loss)
+
+    # Logging the losses and gradient penalty
+    if epoch % 100 == 0:
+        print(f"Epoch [{epoch}/{num_epochs}] | D Loss: {d_loss.item():.4f} | G Loss: {g_loss.item():.4f} | Gradient Penalty: {gp.item():.4f}")
+
+
+
+# In[45]:
+
+
+num_synthetic_samples = 2000  # Adjust as needed
+z = torch.randn(num_synthetic_samples, latent_dim)
+synthetic_samples = generator(z).detach().numpy()
+
+
+# In[46]:
+
+
+# Combine real and synthetic samples
+X_train_augmented = np.vstack((x_train, synthetic_samples))
+
+y_train_augmented = np.hstack((y_train, np.random.choice(y_train, num_synthetic_samples)))
 
 
 # TRAINING RANDOM FOREST 
 
-# In[52]:
-
-
-param_grid = {
-    'n_estimators': [100, 150, 200],          
-    'bootstrap': [True, False],              
-    'max_depth': [8, 10, 12],               
-    'min_samples_split': [8, 10, 12],        
-    'class_weight': [
-        {0: 1, 1: 5}, 
-        {0: 1, 1: 8}, 
-        {0: 1, 1: 10}, 
-        'balanced'
-    ],  
-}
-
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import GridSearchCV
-
-# Initialize the model
-rf_model = RandomForestClassifier(random_state=25)
-
-# GridSearchCV
-grid_search = GridSearchCV(
-    estimator=rf_model,
-    param_grid=param_grid,
-    scoring='f1',        
-    cv=5,                
-    verbose=2,          
-    n_jobs=-1            
-)
-
-# Fit the model on training data
-grid_search.fit(x_train, y_train)
-
-# Display best parameters and score
-print("Best Parameters:", grid_search.best_params_)
-print("Best F1 Score:", grid_search.best_score_)
-
-
-# In[53]:
+# In[48]:
 
 
 from sklearn.feature_selection import SelectKBest, f_classif
-from imblearn.over_sampling import ADASYN
 
 rf_model = RandomForestClassifier(
-    n_estimators=500,
+    n_estimators=100,
     bootstrap=True,
-    max_depth=6, 
-    min_samples_split=10,
-    min_samples_leaf= 15,
-    class_weight={0: 0.692, 1: 10},
+    max_depth=2, 
+    min_samples_split=5,
+    class_weight={0:1.5, 1:7},
     random_state=25
 )
 
 pipeline_rf = ImbPipeline([
     ('scaler', StandardScaler()),
-    ('Class Imbalance', SMOTE(random_state=25)),
+    ('smote', SMOTE(random_state=25)),
     ('feature_selection', SelectKBest(score_func=f_classif, k=5)),
     ('classifier', rf_model)
 ])
 
 kf = StratifiedKFold(n_splits=10, shuffle=True, random_state=25)
 
-cv_scores = cross_val_score(pipeline_rf, x_train, y_train, cv=kf, scoring='f1')
+cv_scores = cross_val_score(pipeline_rf, X_train_augmented, y_train_augmented, cv=kf, scoring='f1')
 
 print('Cross-validation scores:', cv_scores)
 print('Mean cross-validation score:', np.mean(cv_scores))
 print('Standard deviation of cross-validation score:', np.std(cv_scores))
 
 
-# In[54]:
+# In[49]:
 
 
-pipeline_rf.fit(x_train, y_train)
+pipeline_rf.fit(X_train_augmented, y_train_augmented)
 
 y_pred_rf = pipeline_rf.predict(x_test)
 
@@ -734,14 +678,14 @@ print('Classification Report on Test Set:')
 print(classification_report(y_test, y_pred_rf))
 
 
-# In[58]:
+# In[52]:
 
 
 import nbformat
 from nbconvert import PythonExporter
 
 # Load the notebook file
-with open('RANDOM FOREST_GANS_25 convert copy 4.ipynb') as f:
+with open('RANDOM FOREST_GANS_25 convert copy.ipynb') as f:
     notebook_content = nbformat.read(f, as_version=4)
 
 # Convert to Python script
@@ -753,11 +697,17 @@ with open('RANDOM FOREST_GANS_25 convert.py', 'w') as f:
     f.write(python_script)
 
 
-# In[59]:
+# In[53]:
 
 
 import pickle
 
 with open('RANDOM FOREST_GANS_25 convert.pkl', 'wb') as f:
     pickle.dump(pipeline_rf, f)
+
+
+# In[ ]:
+
+
+
 

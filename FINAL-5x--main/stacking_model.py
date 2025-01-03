@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 import pickle
@@ -15,7 +15,7 @@ from CustomPreprocessor import CustomPreprocessor
 import seaborn as sns
 
 
-# In[ ]:
+# In[2]:
 
 
 # Function to load models
@@ -114,6 +114,27 @@ def stacking_ensemble(X, y, rf_model, svm_model):
         with open('stacking_meta_model.pkl', 'wb') as meta_model_file:
             pickle.dump(meta_model, meta_model_file)
         print("Meta-model saved successfully.")
+
+        if hasattr(meta_model, 'coef_'):
+            weights = meta_model.coef_[0]  # Get coefficients for each base model
+            base_model_names = ['Random Forest Prediction', 'SVM Prediction']
+
+            # Display the weights
+            weight_df = pd.DataFrame({
+                'Base Model': base_model_names,
+                'Weight': weights
+            })
+
+            print("\nBase Model Weights in Meta-Model:")
+            print(weight_df)
+
+            # Plot the weights
+            weight_df.plot(kind='bar', x='Base Model', y='Weight', legend=False, color='skyblue')
+            plt.title('Weights of Base Models in Meta-Model')
+            plt.ylabel('Weight')
+            plt.show()
+        else:
+            print("Meta-model does not have 'coef_' attribute.")
 
         return meta_model
     except Exception as e:
@@ -217,7 +238,9 @@ if __name__ == "__main__":
     predict_new_data(meta_model, rf_model, svm_model, 'test.csv', preprocessor, 'new_data.csv')
 
 
-# In[ ]:
+
+
+# In[3]:
 
 
 import nbformat
