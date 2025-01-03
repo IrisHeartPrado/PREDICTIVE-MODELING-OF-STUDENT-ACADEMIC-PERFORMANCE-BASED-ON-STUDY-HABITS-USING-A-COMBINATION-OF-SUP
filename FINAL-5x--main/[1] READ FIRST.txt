@@ -1,0 +1,100 @@
+!!READ FIRST!!
+
+GOAL: 
+Make a predictive model for student academic performance based on their Year, Final Grades, Subject Failed(Number of their failed subject/s), and their study habits
+
+ALGORITHM USED: Stacking method
+Base Learner: 
+(1)Support Vector Machine 
+(2)Random Forest 
+Meta-learner: 
+Logistic Regression 
+
+The study aimed to contribute to the development of more effective methods for predicting student performance and to inform targeted interventions that support student learning. The specific objectives were:
+(1)To optimize the performance of a combined Support Vector Machine (SVM) and Random Forest model for predicting the academic performance of students in the BSCS program at PLMUN
+(2)To evaluate the performance of Support Vector Machine (SVM) and Random Forest algorithms in predicting the academic performance of BSCS students at PLMUN
+(3)To investigate the potential benefits of combining SVM and Random Forest algorithms to develop a hybrid prediction model.
+(4)To Understand and balance the complexity of the model to prevent underfitting and overfitting.
+(5)To develop a method for generating and utilizing synthetic data to train and test the predictive model effectively, ensuring it closely mimics real student data while preserving confidentiality and addressing privacy concerns.
+(6)To identify which study habit factors have the greatest influence on student performance using this combined model.
+(7)To determine how INC (Incomplete) grades should be considered in the analysis
+
+
+ALGORITHMIC WORKFLOW
+
+TRAINING FOR SVM: 
+(1) Importing necessary libraries
+(2) Load data sets
+(2.1) From the stdInfo_Function importing Student (Name, Year, Student Number)
+(2.2) From the stdGrade_Function importing GrdSystem (Name, Year, Student Number, Subject 1 - 8, Final Grade, Subject Failed, Status)
+(2.3) From the StudyHbtsSurvey_Function importing S_H_Survey (Name, Year, Student Number, Homework, Time Allocation, Reading and Note Taking, Study Period Procedures, Examination, Teachers Consultation)
+(3) Cleaning the data
+(3.1) Checking duplicates
+(3.2) Checking null Values
+(3.3) Dropping unnecessary columns
+(3.4) Renaming Columns
+(3.5) Handling Missing Values
+(3.5.1) For survey - Used Probabilistic Imputation 
+For each missing value (NaN), it replaces it with one of those values, where the likelihood of selecting a value is higher for the values that occur more frequently.
+(4) Converting objects to numerical
+(4.1) For [Time Allocation, Study Period Procedures] - Used get_dummies function from pandas
+(4.2) For [Homework, Reading and Note Taking, Teachers Consultation, Status] - Used Label Encoder from sklearn preprocessing
+(5) Drop the original datasets of Time Allocation and Study period procedures
+(6) Getting the X and Y variables
+(6.1) X - Independent Variables
+(6.2) Y - Dependent Variable
+(7) Data Splitting - Used train_test_split (30% is test data)
+(8) Training of data
+(8.1) SVM MODEL
+(8.1.1) Used pipeline to avoid data leakage
+- StandardScaler() - to standardized
+- ADASYN - to handle imbalance data
+- Hypertuned SVC
+(8.1.2) Used KFold (5 fold)
+(8.1.3) Used Cross Validation (f1 scoring)
+(8.1.4) Fitted the model using the x and y train
+(8.1.5) Evaluating Model using accuracy score and classification report
+
+TRAINING FOR RANDOM FOREST
+
+(8.2) Random Forest 
+(8.2.1) Used Data Augmentation (GANS) 
+(8.2.2) Used Pipeline 
+- StandardScaler
+- Feature Selection using SelectKBest (5 Features) 
+- Hypertuned Random Forest 
+(8.2.3) KFold (10 fold) 
+(8.2.4) Used Cross validation using the x and y train augmented data (Same scoring sa SVM) 
+(8.2.5) Fitted the model using the augmented data 
+(8.2.6) Evaluating Model using accuracy score and classification report
+
+META LEARNER 
+(9) Train the Stacking Model using the Logistic Regression 
+(9.1) Loaded the base model using pickle 
+(9.2) Loaded the csv file of the preprocessed data 
+(9.3) Getting the X and Y variable
+(9.4) Used a function that will get the prediction out of the base learner 
+(9.5) Created a function for the stacking method
+(9.6) Implement the stacking method to combine predictions and train the meta-learner.
+
+INSTRUCTIONS
+Option 1: Run the Program via Terminal
+
+Set Up the Environment: 
+Ensure that you have Python installed on your system. You can check by running python --version in the terminal. 
+If Python is not installed, download and install it from the official Python website.
+Version used: Python 3.11
+
+Install Dependencies:
+If you haven’t already, install the necessary libraries required for the program. You can do this by running: bash
+pip install -r requirements.txt
+
+
+Running the Program:
+Open a terminal and navigate to the directory where the program files (main.py, test.csv, new_data.csv) 
+are located.
+Run the following command to start the program: bash
+python main.py --data test.csv --output prediction.csv --true_labels new_data.csv
+
+Option 2: Check Results in Jupyter Notebook
+If you prefer not to run or set up the environment, you can simply check the results by opening the Stacking_model_2.ipynb Jupyter notebook

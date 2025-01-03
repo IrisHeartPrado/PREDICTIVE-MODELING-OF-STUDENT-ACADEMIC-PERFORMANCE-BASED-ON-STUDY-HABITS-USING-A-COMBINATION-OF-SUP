@@ -1,0 +1,625 @@
+Name,Year,Student Number,Subject_1,Subject_2,Subject_3,Subject_4,Subject_5,Subject_6,Subject_7,Subject_8,Final Grade,Subjects Failed,Homework,Time Allocation,Reading and Note Taking,Study Period Procedures,Examination,Teachers Consultation
+Timothy Bridges,4,21034704,1.0,4.0,1.75,5.0,2.5,,,,2.85,2,Yes,Good,Handwritten,Pomodoro,20.0,No
+Shane Fields,1,24496191,4.0,5.0,2.0,2.25,5.0,,,,3.62,3,No,Good,Handwritten,Flashcards,9.0,No
+Troy Scott,2,23895285,3.0,1.25,2.0,2.0,2.25,1.5,1.75,1.5,1.86,0,Yes,Poor,Handwritten,Flashcards,4.0,Yes
+Jeff Chapman,4,21811995,2.25,5.0,1.25,4.0,1.75,,,,2.85,2,No,Poor,Handwritten,Pomodoro,14.0,Yes
+Michael Collier,4,21532971,2.0,1.25,1.25,2.75,2.5,,,,1.95,0,No,Poor,Handwritten,Flashcards,15.0,Yes
+Rebecca Weber,1,24691820,3.0,1.5,4.0,3.0,4.0,,,,3.11,2,Yes,Good,Digital,Flashcards,18.0,Yes
+Catherine Howard,2,23193687,2.0,1.25,1.5,2.0,2.75,1.75,1.25,3.0,1.93,0,No,Fair,Handwritten,Group Discussions,2.0,No
+Brian Dudley,4,21798770,2.5,2.25,3.0,1.5,2.25,,,,2.3,0,No,Good,Digital,Pomodoro,8.0,Yes
+Annette Aguilar,4,21420667,2.5,1.5,1.75,1.0,2.75,,,,1.9,0,No,Fair,Handwritten,Pomodoro,6.0,No
+Collin Martin,1,24736995,4.0,2.5,3.0,2.75,5.0,,,,3.41,2,No,Good,Digital,Summarizing,16.0,No
+Benjamin Hart,1,24211322,2.5,1.75,1.5,4.0,2.5,,,,2.45,1,Yes,Good,Handwritten,Flashcards,14.0,Yes
+Beth Golden,2,23253299,2.0,3.0,5.0,1.0,5.0,4.0,5.0,4.0,3.7,5,No,Fair,Handwritten,Flashcards,10.0,Yes
+Christopher Montoya,4,21545777,2.75,1.5,2.0,2.0,5.0,,,,2.65,1,Yes,Good,Digital,Flashcards,13.0,Yes
+Jeff Hansen,4,21676581,2.5,1.25,2.75,2.75,1.5,,,,2.15,0,Yes,Poor,Digital,Summarizing,12.0,Yes
+Johnny Wagner,3,22650993,5.0,1.5,5.0,2.25,2.5,1.5,2.5,,2.89,2,No,Poor,Digital,Pomodoro,13.0,No
+Mr. Robert Campbell,1,24294814,2.75,1.0,2.25,2.0,4.0,,,,2.38,1,Yes,Good,Handwritten,Summarizing,4.0,Yes
+Jason Olsen,1,24082042,1.0,1.0,4.0,2.25,2.0,,,,2.12,1,Yes,Good,Digital,Flashcards,17.0,No
+Joyce Woods,3,22116928,2.5,5.0,5.0,1.5,1.75,1.75,2.0,,2.79,2,No,Poor,Handwritten,Flashcards,9.0,No
+Luke Bell,3,22241919,3.0,1.0,2.25,1.0,3.0,2.0,1.0,,1.89,0,No,Fair,Handwritten,Summarizing,17.0,Yes
+Carlos Davis,2,23821190,5.0,2.0,5.0,3.0,2.75,2.5,2.5,1.75,2.98,2,No,Good,Digital,Flashcards,17.0,No
+Sonia Campos,3,22283411,5.0,1.75,1.0,1.25,1.5,1.75,2.5,,2.11,1,Yes,Good,Handwritten,Summarizing,17.0,No
+Charles Sampson,1,24407945,2.0,5.0,3.0,2.0,2.25,,,,2.91,1,No,Poor,Digital,Group Discussions,16.0,Yes
+Christopher Duncan,3,22440246,1.25,1.25,2.0,2.0,5.0,4.0,2.25,,2.54,2,Yes,Good,Handwritten,Flashcards,3.0,Yes
+Kimberly Hayes,1,24840419,5.0,4.0,2.75,2.0,1.5,,,,2.91,2,No,Fair,Digital,Pomodoro,9.0,No
+Johnny Ellis,2,23570377,5.0,1.25,5.0,3.0,1.75,2.5,5.0,2.75,3.21,3,No,Poor,Handwritten,Group Discussions,5.0,Yes
+Joan Kelly,3,22804754,2.0,3.0,2.25,1.75,5.0,1.25,4.0,,2.75,2,No,Fair,Handwritten,Pomodoro,8.0,Yes
+Mrs. Nicole Butler,2,23561301,1.25,3.0,2.25,2.5,1.0,2.25,1.5,2.75,2.1,0,No,Poor,Handwritten,Flashcards,18.0,Yes
+Michelle Knight,2,23968022,3.0,1.5,4.0,1.5,3.0,1.75,2.25,5.0,2.74,2,Yes,Poor,Handwritten,Summarizing,16.0,No
+Crystal Smith,1,24548015,1.25,1.0,4.0,2.0,2.5,,,,2.21,1,Yes,Poor,Digital,Flashcards,18.0,No
+Deanna Rodriguez,1,24189017,2.0,2.5,2.0,4.0,2.75,,,,2.7,1,Yes,Good,Digital,Pomodoro,1.0,Yes
+Leslie Johnson,1,24113172,2.0,1.25,1.25,1.5,1.5,,,,1.46,0,Yes,Good,Digital,Pomodoro,17.0,Yes
+Carla Grimes,4,21942658,5.0,1.5,2.25,2.75,5.0,,,,3.3,2,Yes,Fair,Handwritten,Summarizing,12.0,Yes
+Todd Salazar,1,24014888,1.0,4.0,2.5,5.0,1.75,,,,2.98,2,Yes,Poor,Digital,Pomodoro,5.0,Yes
+Jason Levy,2,23218617,1.25,2.25,1.0,1.0,2.0,3.0,1.0,4.0,1.97,1,No,Poor,Handwritten,Flashcards,16.0,No
+Brittney Richardson,1,24936228,1.0,1.0,1.75,5.0,1.25,,,,2.07,1,Yes,Poor,Digital,Summarizing,5.0,Yes
+Brandon Wheeler,2,23476317,2.75,2.0,1.25,1.0,2.75,2.25,3.0,3.0,2.23,0,Yes,Fair,Digital,Pomodoro,2.0,Yes
+Claire Arnold,4,21243522,2.5,5.0,1.75,4.0,4.0,,,,3.45,3,No,Good,Digital,Flashcards,12.0,Yes
+Stephanie Jackson,4,21057335,2.75,2.75,1.0,1.0,1.0,,,,1.7,0,No,Good,Digital,Group Discussions,1.0,Yes
+Thomas Nguyen,3,22697503,3.0,2.5,2.75,3.0,3.0,1.0,1.5,,2.39,0,Yes,Fair,Handwritten,Flashcards,14.0,No
+Robert Baker,3,22708011,2.25,1.25,5.0,1.0,2.25,1.0,1.25,,2.0,1,Yes,Poor,Handwritten,Group Discussions,6.0,Yes
+Melissa Carter,4,21492056,1.75,2.0,2.5,1.5,1.0,,,,1.75,0,No,Good,Digital,Summarizing,3.0,Yes
+Dylan Drake,4,21450167,2.0,1.0,1.25,2.0,2.75,,,,1.8,0,Yes,Fair,Handwritten,Summarizing,16.0,Yes
+Donald Mathews,4,21308460,4.0,2.0,1.5,1.5,2.25,,,,2.25,1,Yes,Fair,Handwritten,Summarizing,15.0,No
+Jeffrey Black,4,21015310,1.25,5.0,1.5,1.75,1.5,,,,2.2,1,Yes,Good,Handwritten,Pomodoro,4.0,Yes
+Dustin Manning,1,24107091,2.75,2.75,2.5,1.0,1.0,,,,1.95,0,Yes,Poor,Handwritten,Pomodoro,10.0,No
+Mrs. Karen Brown,1,24841867,2.25,2.0,2.0,2.25,3.0,,,,2.3,0,No,Fair,Handwritten,Summarizing,20.0,No
+Ian Shaw V,4,21829928,1.75,2.0,3.0,2.5,5.0,,,,2.85,1,Yes,Good,Handwritten,Group Discussions,14.0,No
+Thomas Waters,1,24406608,4.0,1.5,1.0,1.5,1.75,,,,1.8,1,No,Good,Digital,Group Discussions,12.0,Yes
+Benjamin Williams,3,22217540,2.0,1.75,2.0,2.5,2.5,1.0,1.75,,1.93,0,Yes,Good,Handwritten,Pomodoro,2.0,No
+Carlos Aguilar,1,24498784,1.75,1.5,1.5,1.75,2.5,,,,1.8,0,No,Poor,Digital,Pomodoro,12.0,Yes
+Beverly Humphrey,3,22698081,3.0,2.0,1.25,1.25,1.25,5.0,1.25,,2.14,1,No,Fair,Digital,Group Discussions,17.0,No
+Michelle Woodard,1,24239858,2.25,1.25,1.25,2.75,3.0,,,,2.09,0,Yes,Fair,Handwritten,Group Discussions,2.0,No
+Steven Cherry,1,24242598,4.0,1.75,1.5,2.5,1.5,,,,2.12,1,Yes,Good,Digital,Flashcards,10.0,Yes
+Amber Rosales,3,22467178,3.0,3.0,1.25,2.75,2.75,1.25,3.0,,2.43,0,Yes,Good,Digital,Group Discussions,5.0,No
+Mrs. Sharon Ochoa,2,23502690,1.0,2.75,1.25,1.75,1.75,1.5,1.5,5.0,2.11,1,No,Poor,Handwritten,Pomodoro,13.0,Yes
+Michael Malone,2,23541659,4.0,2.5,2.0,2.75,2.5,2.5,4.0,1.0,2.6,2,Yes,Good,Handwritten,Group Discussions,6.0,Yes
+Amy Booker,3,22019109,1.25,5.0,4.0,2.0,5.0,1.5,5.0,,3.39,4,No,Good,Handwritten,Group Discussions,16.0,Yes
+Bradley Valentine,4,21799392,1.5,1.5,2.5,2.0,4.0,,,,2.3,1,No,Poor,Handwritten,Flashcards,17.0,Yes
+Mr. James Hanson,1,24829098,2.0,5.0,2.5,1.5,2.25,,,,2.7,1,Yes,Good,Handwritten,Flashcards,12.0,No
+Thomas Lowe,4,21543403,1.75,1.5,5.0,1.5,2.75,,,,2.5,1,No,Poor,Handwritten,Summarizing,7.0,No
+Jacob Wilson,1,24768678,1.0,2.5,2.0,1.25,2.75,,,,1.96,0,No,Good,Handwritten,Group Discussions,15.0,No
+Mrs. Taylor Fernandez,1,24576947,2.5,2.25,1.0,2.25,2.5,,,,2.07,0,No,Good,Handwritten,Summarizing,7.0,No
+Casey Shaw,3,22443605,5.0,2.75,1.5,3.0,2.75,1.5,2.5,,2.71,1,No,Good,Handwritten,Group Discussions,9.0,No
+Jerome Austin,2,23409963,1.5,1.5,1.0,2.5,1.75,2.5,2.0,2.0,1.86,0,Yes,Poor,Handwritten,Pomodoro,5.0,Yes
+Connie White,3,22901111,1.0,5.0,3.0,1.0,3.0,2.5,1.5,,2.43,1,No,Good,Digital,Pomodoro,12.0,Yes
+Brandi Lee,4,21517173,1.5,2.75,3.0,2.5,1.5,,,,2.25,0,Yes,Good,Digital,Group Discussions,2.0,Yes
+Jeffrey Haney,3,22425322,1.25,2.75,2.5,1.75,1.25,5.0,1.0,,2.21,1,Yes,Fair,Handwritten,Summarizing,8.0,No
+Seth Ford,2,23836533,1.75,5.0,5.0,1.5,1.0,2.75,5.0,5.0,3.45,4,Yes,Fair,Digital,Summarizing,8.0,No
+David Stout,1,24415667,1.5,1.5,2.75,1.75,2.75,,,,2.09,0,No,Good,Handwritten,Group Discussions,7.0,Yes
+Jay Williams,4,21990447,1.5,1.5,3.0,2.25,3.0,,,,2.25,0,No,Poor,Digital,Flashcards,11.0,Yes
+Dr. Noah Peterson,2,23301306,1.25,3.0,4.0,1.5,5.0,1.0,2.0,2.25,2.55,2,Yes,Poor,Digital,Group Discussions,14.0,No
+Roger Rich,1,24216605,2.25,2.75,1.5,1.25,1.0,,,,1.71,0,Yes,Fair,Digital,Pomodoro,14.0,Yes
+Anthony Mcmillan,4,21293133,1.75,2.25,2.0,1.0,3.0,,,,2.0,0,No,Poor,Handwritten,Flashcards,5.0,Yes
+John Williams,3,22521341,1.5,2.75,2.75,2.0,4.0,1.75,3.0,,2.54,1,No,Good,Handwritten,Group Discussions,10.0,No
+Brian Stephens,4,21219935,5.0,1.25,1.75,2.0,4.0,,,,2.8,2,No,Good,Handwritten,Summarizing,1.0,No
+Ricky Thomas,3,22891627,2.5,5.0,1.75,1.75,2.0,3.0,2.75,,2.68,1,Yes,Poor,Handwritten,Group Discussions,5.0,Yes
+Alison Howard,4,21628828,1.75,1.75,1.75,2.5,1.5,,,,1.85,0,No,Fair,Digital,Group Discussions,14.0,Yes
+Dawn Edwards,2,23551613,1.75,3.0,2.0,3.0,2.0,5.0,2.75,2.25,2.76,1,Yes,Fair,Digital,Group Discussions,19.0,No
+Shane Snyder,2,23753328,1.5,3.0,3.0,1.5,3.0,2.0,5.0,1.5,2.61,1,Yes,Poor,Handwritten,Flashcards,19.0,Yes
+Justin Adams,3,22857903,1.0,1.25,1.5,2.5,3.0,5.0,5.0,,2.75,2,No,Good,Digital,Group Discussions,20.0,No
+Jessica Jones,1,24059280,1.75,1.25,1.75,3.0,2.75,,,,2.12,0,Yes,Fair,Digital,Flashcards,6.0,Yes
+Anthony Hines,1,24210083,1.75,2.5,2.75,1.0,1.75,,,,1.96,0,Yes,Fair,Digital,Pomodoro,14.0,No
+John Watkins,3,22420409,2.5,2.5,5.0,1.0,1.5,1.75,3.0,,2.46,1,Yes,Good,Digital,Group Discussions,6.0,No
+Martin Burton,2,23946255,5.0,5.0,1.75,2.0,1.0,2.0,2.25,2.25,2.55,2,Yes,Poor,Handwritten,Pomodoro,9.0,No
+Taylor Irwin,2,23469914,4.0,5.0,1.75,1.25,1.75,4.0,2.0,1.5,2.6,3,Yes,Good,Handwritten,Summarizing,16.0,Yes
+Katelyn Jordan,2,23255793,2.5,3.0,2.5,4.0,4.0,1.25,2.25,2.25,2.73,2,Yes,Poor,Digital,Summarizing,8.0,No
+Kurt Duarte,2,23686646,2.5,5.0,2.5,1.5,2.0,1.25,1.75,5.0,2.7,2,No,Fair,Handwritten,Pomodoro,11.0,Yes
+Sarah Baker,1,24103991,5.0,5.0,2.0,1.5,1.75,,,,2.91,2,Yes,Poor,Digital,Flashcards,15.0,No
+Jay Cordova,3,22532818,2.0,4.0,1.25,1.75,2.0,2.25,3.0,,2.32,1,Yes,Fair,Digital,Pomodoro,8.0,No
+Philip Hernandez,1,24036774,2.5,5.0,1.5,1.0,1.0,,,,2.18,1,Yes,Good,Digital,Flashcards,3.0,No
+Kara Frey,3,22510184,2.0,1.25,1.25,1.0,5.0,1.5,1.5,,1.93,1,Yes,Good,Digital,Flashcards,19.0,Yes
+Dean Eaton,3,22209408,1.0,2.0,2.25,2.5,1.75,2.5,4.0,,2.29,1,No,Poor,Handwritten,Summarizing,4.0,Yes
+Douglas Kane,3,22443941,1.5,1.0,2.5,2.25,1.75,5.0,4.0,,2.57,2,Yes,Good,Digital,Group Discussions,12.0,Yes
+Shawn Gardner,3,22153799,4.0,2.5,1.75,1.25,3.0,1.0,2.25,,2.25,1,No,Good,Digital,Group Discussions,19.0,Yes
+Brett Dillon,3,22105671,4.0,1.75,2.0,4.0,2.25,1.5,4.0,,2.79,3,Yes,Poor,Handwritten,Summarizing,7.0,Yes
+Caroline Gamble,4,21020675,2.75,1.75,2.25,4.0,2.0,,,,2.55,1,No,Fair,Digital,Flashcards,5.0,Yes
+Kimberly Barton,1,24593256,2.25,1.5,1.75,1.25,2.75,,,,1.88,0,Yes,Good,Handwritten,Flashcards,11.0,Yes
+Amanda Carter,2,23855133,2.0,2.5,2.5,2.75,3.0,1.25,3.0,4.0,2.65,1,No,Good,Digital,Pomodoro,19.0,No
+Steven Hill,3,22620273,2.75,1.5,1.5,5.0,2.5,1.75,1.0,,2.29,1,Yes,Good,Handwritten,Pomodoro,19.0,Yes
+Mackenzie Wilson,3,22865042,1.75,2.75,2.0,2.75,1.25,5.0,3.0,,2.64,1,No,Good,Digital,Flashcards,13.0,Yes
+Joshua Swanson,4,21650180,1.5,1.25,2.75,1.25,4.0,,,,2.15,1,Yes,Poor,Handwritten,Flashcards,18.0,No
+William Trujillo,2,23199875,1.0,1.25,2.25,1.25,1.75,2.25,2.0,2.5,1.82,0,Yes,Poor,Digital,Group Discussions,16.0,No
+Stanley Bishop,3,22485972,1.0,3.0,2.75,2.25,1.75,3.0,1.75,,2.21,0,Yes,Good,Handwritten,Flashcards,17.0,No
+Crystal Mejia,3,22888629,1.25,2.25,2.0,2.75,2.5,1.25,2.75,,2.11,0,No,Good,Digital,Group Discussions,14.0,Yes
+Jennifer Kelly,2,23629878,5.0,2.0,3.0,2.75,1.75,2.25,3.0,1.75,2.59,1,No,Good,Handwritten,Summarizing,14.0,No
+Veronica Parks,4,21597242,5.0,3.0,2.75,2.25,1.25,,,,2.85,1,No,Poor,Handwritten,Flashcards,20.0,No
+Melissa Kirby,4,21060849,5.0,2.75,1.25,4.0,2.0,,,,3.0,2,Yes,Fair,Handwritten,Summarizing,2.0,Yes
+Michelle Johnson,4,21224874,2.25,4.0,1.75,4.0,5.0,,,,3.4,3,Yes,Good,Handwritten,Flashcards,11.0,No
+Tracey Ray,4,21201827,4.0,2.5,1.0,1.5,1.25,,,,2.05,1,No,Poor,Digital,Summarizing,20.0,Yes
+Taylor Cunningham,1,24693222,5.0,1.25,1.0,4.0,1.75,,,,2.43,2,Yes,Poor,Handwritten,Flashcards,8.0,No
+Kimberly Hudson,3,22514933,3.0,3.0,2.5,1.75,5.0,2.25,1.25,,2.68,1,Yes,Good,Handwritten,Group Discussions,20.0,No
+Tammy Carlson,3,22724464,2.25,2.0,5.0,1.5,4.0,1.25,1.25,,2.46,2,Yes,Poor,Handwritten,Summarizing,17.0,Yes
+Kristen Mcdonald,3,22980821,1.0,3.0,4.0,1.5,1.0,1.75,4.0,,2.32,2,No,Poor,Handwritten,Pomodoro,12.0,No
+Darren Roberts,4,21446575,1.5,2.5,2.75,4.0,2.0,,,,2.55,1,Yes,Good,Digital,Flashcards,15.0,Yes
+Tommy Russell,4,21466423,3.0,3.0,4.0,2.0,1.5,,,,2.7,1,No,Poor,Digital,Summarizing,4.0,Yes
+Kaitlin Ferrell,4,21533359,1.5,1.5,5.0,1.75,2.25,,,,2.4,1,No,Good,Handwritten,Summarizing,6.0,No
+Grace Coleman,2,23082840,2.25,1.25,4.0,5.0,2.75,5.0,4.0,2.5,3.39,4,No,Good,Handwritten,Flashcards,6.0,No
+Gary Mitchell,2,23765078,2.5,4.0,4.0,3.0,2.25,1.75,3.0,5.0,3.22,3,No,Good,Digital,Pomodoro,17.0,No
+James Johnson,4,21142524,5.0,1.75,2.75,4.0,1.75,,,,3.05,2,No,Fair,Handwritten,Flashcards,17.0,No
+Rhonda Peterson,2,23318733,2.25,4.0,2.5,2.25,2.5,1.75,1.75,1.25,2.28,1,Yes,Good,Digital,Flashcards,2.0,No
+Amber Jensen,3,22752375,1.5,3.0,3.0,2.0,3.0,2.75,1.25,,2.36,0,No,Fair,Handwritten,Flashcards,8.0,Yes
+Sierra Petty,3,22675299,1.0,5.0,5.0,2.5,1.5,2.75,2.25,,2.86,2,Yes,Poor,Handwritten,Summarizing,4.0,No
+Sandra Hale,1,24859409,1.75,1.0,2.0,5.0,3.0,,,,2.61,1,Yes,Good,Digital,Summarizing,19.0,Yes
+Brian Wilson,3,22343276,2.5,2.25,3.0,2.0,1.75,2.5,1.0,,2.14,0,No,Good,Digital,Pomodoro,14.0,No
+Kaitlyn Gomez,1,24193330,2.0,5.0,1.25,5.0,1.25,,,,2.96,2,Yes,Fair,Handwritten,Pomodoro,4.0,Yes
+Dr. John Davenport MD,2,23138615,2.5,5.0,2.0,3.0,3.0,2.25,1.0,1.25,2.5,1,Yes,Good,Digital,Pomodoro,5.0,No
+Peggy White,2,23817836,3.0,2.25,4.0,2.75,1.5,2.0,4.0,1.5,2.61,2,Yes,Fair,Digital,Flashcards,10.0,No
+Christina Moore,1,24155678,1.0,1.0,1.0,1.0,5.0,,,,1.86,1,No,Poor,Digital,Flashcards,10.0,Yes
+Cynthia Jordan,3,22311201,1.75,2.25,5.0,2.25,2.25,2.0,1.0,,2.36,1,Yes,Poor,Digital,Group Discussions,19.0,No
+Christine Hopkins,4,21115828,3.0,5.0,3.0,2.25,3.0,,,,3.25,1,Yes,Good,Handwritten,Flashcards,15.0,Yes
+Angela Wilson,3,22032019,1.25,4.0,1.25,1.0,1.25,4.0,1.0,,1.96,2,Yes,Poor,Digital,Pomodoro,10.0,No
+Dr. Mary Welch,3,22258937,2.25,1.75,2.25,5.0,1.75,4.0,4.0,,3.0,3,No,Poor,Digital,Summarizing,13.0,No
+Theodore Johnson IV,2,23528849,1.5,1.5,5.0,5.0,4.0,4.0,2.5,1.0,3.13,4,Yes,Good,Handwritten,Group Discussions,5.0,Yes
+Martin Ayers,3,22621711,1.25,1.75,1.0,3.0,5.0,1.0,4.0,,2.43,2,No,Fair,Digital,Group Discussions,3.0,No
+Brian Sanchez,2,23357187,2.25,1.75,1.75,2.5,2.25,2.75,3.0,4.0,2.54,1,No,Poor,Digital,Summarizing,4.0,No
+Lisa Thomas,2,23841903,1.25,2.75,2.25,5.0,2.75,4.0,1.0,2.75,2.78,2,No,Good,Digital,Flashcards,10.0,Yes
+Jennifer Brown,1,24510857,1.75,2.25,1.0,1.25,3.0,,,,1.86,0,No,Poor,Handwritten,Flashcards,17.0,Yes
+Scott Sampson,2,23754417,5.0,1.0,5.0,2.5,1.75,1.25,1.5,4.0,2.65,3,No,Poor,Digital,Pomodoro,3.0,Yes
+Richard Cantu,4,21097752,3.0,2.75,5.0,5.0,3.0,,,,3.75,2,Yes,Poor,Digital,Pomodoro,20.0,Yes
+Connor Cook,1,24947302,2.5,5.0,1.5,5.0,4.0,,,,3.68,3,No,Poor,Handwritten,Group Discussions,2.0,No
+Mark Andersen,4,21276802,2.25,1.5,2.25,2.25,2.75,,,,2.2,0,Yes,Fair,Handwritten,Pomodoro,2.0,No
+Donald Palmer,2,23676826,2.5,3.0,3.0,2.75,5.0,4.0,2.0,2.25,3.09,2,Yes,Good,Handwritten,Group Discussions,20.0,Yes
+Brittany Elliott,1,24764259,4.0,1.25,3.0,2.0,3.0,,,,2.55,1,Yes,Poor,Digital,Flashcards,19.0,No
+Patricia Gomez,2,23908330,4.0,2.75,4.0,4.0,1.5,4.0,4.0,2.25,3.28,5,Yes,Fair,Digital,Pomodoro,18.0,No
+Kenneth Bennett,2,23159333,3.0,2.25,1.0,3.0,4.0,5.0,2.25,2.0,2.8,2,No,Poor,Digital,Group Discussions,4.0,Yes
+Richard Beltran,4,21267417,2.0,4.0,1.5,2.0,1.75,,,,2.25,1,Yes,Poor,Digital,Flashcards,20.0,Yes
+Carrie Weaver DDS,4,21361344,1.75,1.25,1.25,1.75,1.25,,,,1.45,0,Yes,Poor,Digital,Pomodoro,12.0,No
+Christina Nguyen,1,24366542,1.25,5.0,2.0,1.75,4.0,,,,2.91,2,Yes,Good,Handwritten,Pomodoro,2.0,Yes
+Cory Tucker,2,23314072,4.0,3.0,2.25,3.0,4.0,1.25,4.0,1.0,2.76,3,No,Poor,Handwritten,Flashcards,5.0,No
+Mary Moore,2,23520020,2.75,5.0,4.0,4.0,2.75,2.75,2.5,3.0,3.37,3,No,Good,Handwritten,Summarizing,1.0,No
+Jacob Mckenzie,1,24476102,4.0,2.0,1.5,2.5,1.5,,,,2.18,1,No,Fair,Digital,Group Discussions,3.0,No
+Brandon Skinner,3,22270766,2.5,1.25,3.0,1.75,1.0,3.0,2.75,,2.18,0,Yes,Good,Handwritten,Group Discussions,6.0,Yes
+Clinton Weaver,3,22490185,2.75,1.5,2.25,1.25,2.0,2.0,2.0,,1.96,0,Yes,Fair,Digital,Summarizing,18.0,Yes
+Micheal Small,2,23686816,2.0,2.25,2.75,1.25,2.25,2.25,2.0,1.75,2.07,0,No,Poor,Handwritten,Summarizing,17.0,No
+Joseph Conrad,2,23380615,1.25,1.25,4.0,2.0,1.75,4.0,3.0,4.0,2.72,3,Yes,Fair,Handwritten,Pomodoro,11.0,Yes
+Edward Andrade,1,24745111,2.5,4.0,4.0,4.0,1.5,,,,3.25,3,No,Good,Digital,Flashcards,20.0,No
+Andrew George,2,23392777,4.0,1.75,2.0,5.0,2.75,3.0,1.0,5.0,3.02,3,Yes,Good,Digital,Group Discussions,17.0,Yes
+Laura Parks,4,21110126,1.75,1.25,2.25,2.5,2.0,,,,1.95,0,No,Fair,Handwritten,Pomodoro,16.0,Yes
+Tyler Stewart,2,23760738,2.0,2.25,1.25,2.25,1.0,2.5,2.0,1.5,1.84,0,No,Poor,Handwritten,Flashcards,3.0,No
+Carrie Turner,4,21273177,3.0,1.5,3.0,3.0,1.5,,,,2.4,0,Yes,Fair,Handwritten,Flashcards,19.0,No
+Andrea Campos,1,24557686,1.5,1.25,2.75,2.5,3.0,,,,2.25,0,Yes,Poor,Digital,Summarizing,7.0,Yes
+Richard Taylor,4,21080911,2.25,5.0,1.5,1.25,2.25,,,,2.45,1,No,Good,Handwritten,Summarizing,15.0,Yes
+Kathleen Sanchez,2,23305958,2.75,1.75,3.0,2.75,1.25,1.25,2.5,2.5,2.2,0,Yes,Poor,Handwritten,Group Discussions,13.0,No
+Melissa Sullivan,3,22053486,4.0,5.0,2.0,2.25,2.0,3.0,1.25,,2.79,2,Yes,Good,Digital,Group Discussions,20.0,No
+Jessica Miranda,4,21968391,2.25,1.5,1.75,4.0,2.0,,,,2.3,1,No,Poor,Digital,Summarizing,11.0,No
+Anthony Duncan,1,24506127,3.0,1.0,4.0,2.25,1.0,,,,2.2,1,No,Fair,Handwritten,Summarizing,6.0,No
+Shawn Wu,2,23118618,2.0,2.5,1.25,1.5,1.75,1.5,4.0,4.0,2.33,2,No,Poor,Handwritten,Summarizing,3.0,No
+Clarence Savage,3,22801987,2.75,5.0,4.0,3.0,2.75,4.0,1.25,,3.25,3,No,Fair,Digital,Flashcards,16.0,No
+Jordan Wilson,3,22800789,2.0,1.5,4.0,1.5,1.75,1.0,4.0,,2.25,2,Yes,Poor,Handwritten,Group Discussions,20.0,Yes
+Jennifer Craig MD,1,24166437,2.5,1.25,2.0,3.0,1.25,,,,1.96,0,Yes,Good,Handwritten,Flashcards,9.0,No
+Monica Smith,4,21405959,3.0,2.75,1.0,2.5,1.5,,,,2.15,0,Yes,Good,Digital,Pomodoro,4.0,Yes
+Eric Nguyen,2,23701553,3.0,1.5,1.75,4.0,3.0,1.0,1.25,1.0,2.02,1,No,Good,Digital,Flashcards,12.0,Yes
+Marcus Johnson,2,23597400,2.5,3.0,5.0,2.25,4.0,2.5,1.5,2.75,2.96,2,No,Fair,Digital,Group Discussions,4.0,Yes
+Nicole Ramirez,2,23413454,2.75,2.5,5.0,3.0,2.5,3.0,2.25,1.25,2.78,1,No,Fair,Handwritten,Group Discussions,13.0,No
+Scott Carrillo,3,22377544,2.5,1.5,1.25,1.5,1.25,1.0,5.0,,2.0,1,No,Fair,Digital,Group Discussions,1.0,Yes
+Anne Scott,3,22537414,2.5,2.25,4.0,3.0,1.5,5.0,3.0,,3.04,2,Yes,Good,Handwritten,Pomodoro,20.0,No
+John Todd,3,22515369,1.25,1.75,2.5,2.75,5.0,2.25,2.25,,2.54,1,Yes,Fair,Handwritten,Group Discussions,17.0,Yes
+Laura Jones,4,21083143,1.5,5.0,1.5,2.75,1.0,,,,2.35,1,Yes,Poor,Handwritten,Flashcards,4.0,No
+James Acevedo,3,22994689,1.5,2.0,1.0,1.75,2.25,1.5,2.75,,1.82,0,Yes,Fair,Handwritten,Group Discussions,18.0,No
+William Smith,3,22803712,2.5,5.0,1.25,1.0,1.0,4.0,2.25,,2.43,2,No,Good,Digital,Group Discussions,20.0,No
+John Jones,3,22148097,2.75,2.5,2.25,1.5,1.25,2.0,1.5,,1.96,0,No,Poor,Digital,Summarizing,12.0,Yes
+William Compton,4,21980909,1.0,1.5,1.5,1.5,1.0,,,,1.3,0,No,Poor,Handwritten,Group Discussions,14.0,No
+Melanie Kelly,3,22224518,2.5,4.0,2.75,1.25,3.0,1.25,2.25,,2.43,1,No,Good,Handwritten,Summarizing,1.0,No
+Joseph Peterson,1,24083060,1.75,1.5,1.0,3.0,4.0,,,,2.29,1,Yes,Fair,Digital,Pomodoro,6.0,Yes
+Christine Stone,2,23703957,2.25,1.0,2.0,1.75,2.75,2.25,1.0,3.0,1.99,0,No,Fair,Digital,Flashcards,18.0,Yes
+Carlos Jackson,3,22760484,2.5,5.0,2.5,5.0,2.25,5.0,4.0,,3.75,4,Yes,Good,Digital,Group Discussions,4.0,No
+Jack Cruz,2,23395900,4.0,4.0,5.0,2.25,1.5,4.0,2.75,1.75,3.12,4,Yes,Good,Digital,Group Discussions,5.0,No
+Dominique Bennett,2,23660318,3.0,1.0,2.0,2.25,1.75,2.75,2.75,1.75,2.12,0,Yes,Good,Handwritten,Summarizing,20.0,Yes
+Travis Archer,2,23862448,2.0,1.25,1.0,2.25,1.25,2.0,1.0,2.25,1.61,0,No,Fair,Handwritten,Summarizing,7.0,Yes
+April Warren,2,23226776,1.75,2.25,4.0,4.0,2.0,1.25,1.0,5.0,2.7,3,No,Fair,Digital,Flashcards,19.0,No
+Danielle Hines,2,23447872,2.75,3.0,1.0,1.75,3.0,5.0,1.75,2.5,2.59,1,Yes,Poor,Handwritten,Group Discussions,1.0,No
+Kimberly Harding,4,21948143,5.0,1.0,4.0,3.0,1.25,,,,2.85,2,Yes,Poor,Handwritten,Flashcards,6.0,No
+Victor Evans,3,22364705,2.75,1.25,4.0,4.0,1.75,1.25,3.0,,2.57,2,No,Poor,Digital,Flashcards,2.0,No
+Melissa Carroll,1,24173307,1.25,1.5,2.5,4.0,2.75,,,,2.48,1,No,Good,Handwritten,Flashcards,16.0,Yes
+Christopher Reed,2,23314478,1.5,5.0,2.5,1.75,5.0,4.0,2.5,2.5,3.16,3,No,Good,Digital,Flashcards,17.0,Yes
+Kimberly Taylor,2,23047344,1.5,2.5,1.25,5.0,2.25,2.0,2.25,2.25,2.41,1,Yes,Good,Handwritten,Pomodoro,17.0,Yes
+Kelly Mcclure,1,24668119,1.0,1.0,5.0,1.5,2.0,,,,2.18,1,Yes,Good,Digital,Flashcards,9.0,Yes
+Sherry Hernandez,2,23654458,4.0,5.0,2.0,1.0,4.0,4.0,1.75,5.0,3.32,5,Yes,Poor,Handwritten,Pomodoro,12.0,No
+Kathleen Reynolds,1,24443534,1.25,1.25,2.25,2.0,2.25,,,,1.84,0,No,Fair,Digital,Flashcards,1.0,No
+Tiffany Anderson,2,23510918,2.5,2.0,2.75,2.25,1.5,1.5,1.25,1.5,1.88,0,No,Poor,Handwritten,Flashcards,10.0,No
+Jennifer Powell,3,22021931,4.0,1.0,1.0,3.0,3.0,1.25,5.0,,2.61,2,No,Good,Handwritten,Group Discussions,19.0,No
+Jorge Austin,4,21525256,2.0,2.0,2.75,1.0,2.25,,,,2.0,0,No,Poor,Digital,Flashcards,13.0,Yes
+Brandy Roberts,3,22146876,2.75,1.25,1.5,2.25,5.0,4.0,3.0,,2.82,2,Yes,Fair,Digital,Flashcards,9.0,No
+Debra Liu,2,23776537,5.0,2.0,2.0,2.25,3.0,1.0,2.0,2.0,2.29,1,No,Fair,Digital,Summarizing,11.0,Yes
+Andre Daniels,2,23752570,2.5,1.75,1.25,1.5,3.0,2.25,2.0,1.25,1.91,0,No,Fair,Digital,Group Discussions,4.0,No
+Nicholas Russell,2,23558081,1.75,2.5,3.0,2.5,2.0,2.25,2.0,1.5,2.21,0,No,Poor,Handwritten,Flashcards,16.0,Yes
+Candace Lyons,1,24830619,1.0,1.75,1.0,3.0,3.0,,,,2.02,0,No,Good,Digital,Flashcards,11.0,No
+Holly Combs,1,24547116,1.75,2.75,4.0,4.0,2.0,,,,2.98,2,No,Poor,Handwritten,Flashcards,8.0,Yes
+Tina Greene,1,24996913,3.0,1.5,2.0,1.75,1.5,,,,1.88,0,Yes,Good,Handwritten,Group Discussions,1.0,No
+Ronald White,4,21996365,3.0,1.5,1.25,1.25,1.25,,,,1.65,0,No,Good,Digital,Group Discussions,18.0,Yes
+Elizabeth Hughes,3,22866480,2.0,1.25,5.0,2.0,1.25,2.5,1.75,,2.25,1,No,Good,Digital,Group Discussions,18.0,Yes
+Luke Cline,2,23439462,1.5,3.0,2.5,4.0,3.0,2.5,3.0,3.0,2.87,1,Yes,Poor,Handwritten,Pomodoro,8.0,Yes
+Alexis Phelps,4,21034733,4.0,3.0,2.25,1.5,4.0,,,,2.95,2,No,Poor,Handwritten,Group Discussions,16.0,No
+Jamie Rich,4,21401592,2.5,5.0,2.25,1.5,2.25,,,,2.7,1,Yes,Poor,Digital,Summarizing,20.0,Yes
+Ryan Crane,3,22601588,4.0,1.0,2.25,5.0,4.0,4.0,1.75,,3.14,4,Yes,Fair,Digital,Group Discussions,3.0,No
+Gwendolyn Watson,4,21267887,2.0,1.5,1.75,1.75,2.5,,,,1.9,0,No,Good,Digital,Summarizing,20.0,No
+Jeffery Moore,3,22383398,5.0,2.0,2.75,1.5,1.0,1.0,2.0,,2.18,1,No,Poor,Digital,Pomodoro,3.0,No
+Haley Robinson,3,22148546,1.5,2.75,5.0,2.75,5.0,2.75,1.5,,3.04,2,Yes,Poor,Handwritten,Pomodoro,6.0,No
+Kyle Brown,3,22693094,1.75,3.0,2.0,2.25,2.75,3.0,4.0,,2.68,1,No,Fair,Digital,Pomodoro,18.0,Yes
+Savannah Collins,2,23709030,2.25,5.0,3.0,1.0,1.0,5.0,2.5,1.5,2.67,2,No,Fair,Handwritten,Summarizing,10.0,No
+Walter Gutierrez,2,23856417,1.25,4.0,2.5,4.0,1.5,4.0,2.75,1.75,2.78,3,Yes,Good,Handwritten,Group Discussions,9.0,Yes
+Melinda Valdez,2,23649903,1.5,4.0,4.0,2.75,1.25,5.0,1.0,1.0,2.61,3,Yes,Fair,Digital,Pomodoro,14.0,Yes
+Angela Thomas,2,23005056,4.0,5.0,5.0,1.5,2.5,2.25,1.75,1.0,2.83,3,No,Poor,Handwritten,Group Discussions,6.0,Yes
+Heather Parker,3,22598464,1.75,1.0,2.0,2.25,2.5,2.0,4.0,,2.21,1,No,Poor,Handwritten,Group Discussions,4.0,No
+Danielle Wagner,2,23344698,2.0,1.0,1.25,1.5,1.5,1.0,2.25,1.5,1.48,0,No,Fair,Digital,Pomodoro,1.0,No
+Ryan Lee,3,22126220,1.75,1.0,4.0,3.0,2.25,1.5,2.25,,2.25,1,Yes,Fair,Digital,Flashcards,15.0,Yes
+Gerald Hernandez,1,24567173,5.0,2.75,1.5,2.25,2.0,,,,2.54,1,No,Fair,Handwritten,Pomodoro,5.0,Yes
+Perry Goodman,2,23370839,1.0,5.0,5.0,2.0,5.0,2.0,1.0,2.0,2.96,3,Yes,Poor,Digital,Group Discussions,2.0,No
+Matthew Castillo,1,24159818,2.75,1.75,4.0,2.0,3.0,,,,2.7,1,No,Fair,Digital,Group Discussions,17.0,No
+Paul Obrien,2,23721659,2.25,3.0,2.25,5.0,3.0,1.75,1.75,5.0,3.03,2,No,Poor,Digital,Flashcards,15.0,Yes
+Jack Pearson,3,22510646,1.5,2.5,3.0,1.25,1.25,3.0,2.5,,2.14,0,No,Fair,Handwritten,Group Discussions,9.0,Yes
+Larry Lee,2,23048897,2.0,2.0,1.5,4.0,1.25,1.5,1.75,3.0,2.13,1,No,Poor,Digital,Group Discussions,17.0,No
+Daniel Roth,4,21688395,2.75,2.25,2.5,2.75,2.0,,,,2.45,0,Yes,Good,Digital,Pomodoro,4.0,Yes
+Bruce Larson,2,23423365,2.25,4.0,2.25,1.0,5.0,2.5,2.0,1.25,2.54,2,No,Good,Handwritten,Pomodoro,5.0,No
+Alexander Meza,3,22534974,1.75,4.0,4.0,2.0,2.0,2.75,4.0,,2.93,3,Yes,Good,Handwritten,Pomodoro,16.0,No
+Trevor Foster,4,21557020,2.5,1.25,5.0,5.0,1.5,,,,3.05,2,Yes,Poor,Digital,Pomodoro,12.0,No
+Scott Delgado,4,21685604,4.0,2.5,2.5,1.0,2.5,,,,2.5,1,No,Good,Handwritten,Pomodoro,12.0,Yes
+Brianna Avery,4,21919297,2.25,2.5,1.5,1.5,2.0,,,,1.95,0,No,Poor,Handwritten,Flashcards,5.0,No
+Kimberly Jenkins,2,23015702,2.75,2.0,2.0,2.75,3.0,2.0,2.5,2.25,2.39,0,Yes,Poor,Handwritten,Flashcards,2.0,Yes
+Taylor Rivera MD,3,22017420,1.25,2.25,1.5,2.25,2.0,2.0,1.5,,1.82,0,Yes,Poor,Digital,Group Discussions,6.0,Yes
+Megan Cowan,3,22516544,1.25,2.0,2.25,1.0,1.75,2.0,2.75,,1.86,0,Yes,Fair,Digital,Pomodoro,15.0,Yes
+Colleen Rodriguez,3,22322911,3.0,1.5,4.0,5.0,3.0,2.5,4.0,,3.29,3,No,Poor,Handwritten,Group Discussions,9.0,Yes
+Brian Garcia,2,23215028,4.0,2.75,3.0,5.0,3.0,3.0,2.0,2.25,3.09,2,No,Poor,Digital,Group Discussions,19.0,No
+Joshua Black,3,22381312,3.0,2.5,2.5,1.0,1.5,2.0,1.75,,2.04,0,No,Poor,Handwritten,Summarizing,1.0,No
+Norma Smith,4,21285705,1.75,5.0,1.75,5.0,1.5,,,,3.0,2,No,Poor,Digital,Summarizing,20.0,No
+Brenda Adkins,2,23412730,1.75,1.0,3.0,3.0,2.75,2.75,2.75,1.5,2.34,0,No,Fair,Handwritten,Flashcards,12.0,Yes
+Anna Hanson,1,24658016,3.0,1.0,2.5,3.0,2.0,,,,2.25,0,Yes,Poor,Digital,Group Discussions,17.0,No
+Joshua Lee,3,22135791,5.0,1.5,3.0,1.75,1.75,1.75,5.0,,2.82,2,No,Poor,Digital,Group Discussions,13.0,Yes
+Heather Rosario,1,24907627,1.0,2.5,1.75,1.25,5.0,,,,2.39,1,Yes,Good,Digital,Summarizing,9.0,No
+Sara Evans,3,22739126,2.25,1.75,1.5,1.75,2.75,5.0,2.25,,2.46,1,No,Good,Handwritten,Pomodoro,8.0,No
+Ashley Farmer,2,23516689,1.75,1.0,3.0,2.25,1.25,4.0,1.75,1.0,2.01,1,No,Good,Digital,Group Discussions,6.0,No
+Angela Weaver,3,22623152,2.75,5.0,5.0,2.25,1.5,1.25,3.0,,2.96,2,Yes,Fair,Handwritten,Pomodoro,7.0,Yes
+Daniel Singleton,1,24226490,3.0,2.75,2.0,2.5,1.0,,,,2.2,0,Yes,Fair,Handwritten,Summarizing,18.0,No
+Riley Mendoza,4,21930400,4.0,4.0,2.75,2.75,1.25,,,,2.95,2,Yes,Fair,Handwritten,Flashcards,18.0,Yes
+Donald Burke,1,24207146,2.5,2.5,1.25,2.5,1.0,,,,1.91,0,Yes,Good,Digital,Summarizing,19.0,Yes
+Michael Donaldson,4,21416623,1.5,1.75,2.5,1.5,2.5,,,,1.95,0,Yes,Good,Digital,Flashcards,12.0,Yes
+Ashley Williams MD,2,23527290,2.5,2.5,2.75,2.5,3.0,5.0,1.25,2.25,2.73,1,Yes,Good,Handwritten,Flashcards,12.0,Yes
+Tami Woods,4,21562778,2.5,1.75,4.0,5.0,1.25,,,,2.9,2,Yes,Fair,Handwritten,Summarizing,8.0,Yes
+Edward Sparks,1,24786458,2.0,2.75,1.75,4.0,1.5,,,,2.43,1,No,Good,Digital,Flashcards,15.0,No
+Jamie Armstrong,4,21576675,3.0,1.5,2.0,1.5,5.0,,,,2.6,1,No,Poor,Handwritten,Flashcards,20.0,No
+Robert Shields DVM,1,24132071,3.0,5.0,4.0,1.25,2.5,,,,3.16,2,No,Good,Handwritten,Flashcards,6.0,No
+Lauren Pratt,4,21986106,2.0,4.0,2.5,2.5,1.5,,,,2.5,1,Yes,Fair,Digital,Pomodoro,11.0,No
+Robert Thomas,1,24590040,4.0,2.25,1.25,5.0,1.5,,,,2.71,2,Yes,Good,Handwritten,Summarizing,12.0,Yes
+Nicole Martin,1,24207632,1.75,1.5,1.25,2.5,1.25,,,,1.64,0,No,Poor,Digital,Pomodoro,1.0,No
+Jennifer Fox,4,21167870,1.5,1.5,5.0,1.25,3.0,,,,2.45,1,Yes,Fair,Digital,Summarizing,14.0,No
+Jeffrey Kennedy,1,24276294,2.0,2.5,2.0,2.5,4.0,,,,2.64,1,No,Poor,Handwritten,Summarizing,3.0,No
+Jessica Smith,2,23978380,2.5,5.0,1.0,2.25,1.75,2.25,2.75,2.0,2.43,1,No,Poor,Digital,Summarizing,15.0,Yes
+Tanya Foster,4,21338676,5.0,2.75,1.25,2.75,2.25,,,,2.8,1,No,Poor,Handwritten,Flashcards,10.0,Yes
+Olivia Lopez,4,21277133,1.5,2.5,1.5,1.75,1.0,,,,1.65,0,Yes,Good,Handwritten,Summarizing,3.0,No
+Lisa Charles,4,21984096,1.75,5.0,2.5,3.0,1.5,,,,2.75,1,No,Fair,Digital,Flashcards,6.0,No
+Kimberly Walker,2,23921285,1.0,2.0,2.0,2.5,2.25,1.75,3.0,4.0,2.37,1,Yes,Fair,Handwritten,Group Discussions,13.0,No
+Brandon Chase,2,23999054,5.0,2.25,5.0,2.75,1.25,5.0,5.0,2.25,3.5,4,Yes,Fair,Handwritten,Pomodoro,15.0,No
+Cynthia Harmon,1,24239807,2.25,2.75,1.0,2.5,2.25,,,,2.14,0,No,Fair,Handwritten,Flashcards,6.0,Yes
+John Moore,1,24494457,1.75,1.5,2.0,1.5,2.25,,,,1.8,0,Yes,Good,Digital,Summarizing,9.0,Yes
+Calvin French,4,21671873,1.5,2.25,1.75,3.0,2.25,,,,2.15,0,No,Poor,Handwritten,Pomodoro,4.0,No
+David Stafford II,3,22935635,1.5,2.0,2.75,1.25,1.0,2.0,4.0,,2.07,1,No,Poor,Digital,Pomodoro,6.0,Yes
+Keith Lee,2,23439853,1.0,2.5,5.0,1.5,2.0,5.0,3.0,1.5,2.76,2,Yes,Fair,Handwritten,Flashcards,20.0,Yes
+Jade Anderson,4,21435795,3.0,1.5,3.0,4.0,5.0,,,,3.3,2,Yes,Poor,Digital,Summarizing,16.0,No
+Dwayne Stanton,3,22357637,2.75,2.75,2.75,1.25,1.75,2.0,3.0,,2.32,0,No,Fair,Handwritten,Flashcards,16.0,No
+Ernest Williams,1,24909173,2.75,2.25,3.0,2.75,2.5,,,,2.64,0,Yes,Poor,Digital,Group Discussions,12.0,No
+Melissa Smith,2,23029614,3.0,1.75,5.0,2.5,2.25,4.0,1.5,2.75,2.84,2,No,Poor,Digital,Group Discussions,14.0,Yes
+Elizabeth Kennedy,3,22930590,1.25,4.0,1.75,2.25,5.0,1.5,2.5,,2.61,2,No,Fair,Digital,Summarizing,19.0,No
+Anthony Ayala,2,23916386,3.0,1.0,1.0,1.75,5.0,4.0,2.25,1.0,2.35,2,Yes,Fair,Digital,Flashcards,9.0,Yes
+Lori Sandoval,4,21023515,4.0,1.0,3.0,1.5,1.5,,,,2.2,1,Yes,Fair,Handwritten,Pomodoro,6.0,Yes
+Brittany Marshall,4,21809813,5.0,2.25,4.0,3.0,5.0,,,,3.85,3,Yes,Poor,Handwritten,Pomodoro,8.0,No
+Mr. Philip Morris,3,22876063,4.0,1.75,1.5,1.75,1.0,2.75,2.75,,2.21,1,No,Fair,Digital,Flashcards,13.0,No
+April Jones,4,21936922,5.0,2.5,2.75,1.5,2.5,,,,2.85,1,No,Good,Handwritten,Group Discussions,5.0,No
+Patty Charles,1,24088746,1.75,1.25,1.5,2.0,1.5,,,,1.59,0,No,Good,Handwritten,Summarizing,18.0,No
+Jacqueline Hess,4,21080499,2.25,1.0,2.75,1.75,4.0,,,,2.35,1,Yes,Good,Handwritten,Pomodoro,13.0,No
+Olivia Hughes,1,24069745,3.0,2.75,4.0,4.0,2.75,,,,3.32,2,Yes,Poor,Handwritten,Group Discussions,12.0,No
+Megan Perez,4,21792803,1.0,1.0,1.0,1.0,4.0,,,,1.6,1,No,Fair,Handwritten,Flashcards,18.0,No
+Allen Humphrey,4,21252671,2.25,2.5,1.25,4.0,2.5,,,,2.5,1,Yes,Poor,Handwritten,Pomodoro,18.0,Yes
+Brian Mendoza,1,24290392,1.0,4.0,2.75,2.5,2.5,,,,2.66,1,No,Fair,Digital,Summarizing,16.0,No
+Austin Quinn,2,23371478,1.25,2.0,2.25,5.0,1.5,4.0,1.5,1.75,2.46,2,No,Good,Handwritten,Group Discussions,1.0,Yes
+Lisa Bautista,4,21201517,2.5,1.5,3.0,2.75,2.0,,,,2.35,0,No,Good,Digital,Pomodoro,12.0,No
+Danielle Harrington,2,23984932,1.0,2.5,1.5,2.5,4.0,1.5,1.5,5.0,2.5,2,No,Poor,Digital,Flashcards,13.0,No
+Miss Judy Gutierrez,4,21851636,2.0,4.0,1.25,2.0,2.75,,,,2.4,1,Yes,Poor,Handwritten,Group Discussions,20.0,Yes
+Richard Blair,2,23910863,2.0,5.0,1.5,2.5,1.75,2.5,2.75,2.0,2.52,1,Yes,Poor,Digital,Pomodoro,4.0,No
+David Coleman,1,24315994,1.75,1.5,4.0,2.5,1.75,,,,2.34,1,Yes,Poor,Handwritten,Flashcards,1.0,No
+Christine Hess,4,21691179,2.0,1.25,2.5,1.75,1.25,,,,1.75,0,Yes,Good,Digital,Summarizing,2.0,No
+Carly Robinson,4,21189882,3.0,1.0,2.5,3.0,4.0,,,,2.7,1,No,Fair,Handwritten,Group Discussions,4.0,No
+Joel Cross,4,21894095,1.75,1.25,3.0,3.0,2.25,,,,2.25,0,No,Fair,Handwritten,Flashcards,11.0,No
+Gregory Ward,4,21323319,1.0,2.25,1.0,2.0,3.0,,,,1.85,0,Yes,Fair,Digital,Summarizing,10.0,Yes
+Jason Johnson,3,22191108,1.5,1.5,4.0,2.75,3.0,1.25,4.0,,2.57,2,No,Poor,Digital,Flashcards,18.0,No
+Renee Jones,1,24484058,1.75,1.5,2.75,2.0,2.25,,,,2.07,0,Yes,Poor,Handwritten,Pomodoro,6.0,No
+Charles Solis,4,21101660,1.0,1.5,4.0,1.0,2.0,,,,1.9,1,Yes,Good,Handwritten,Group Discussions,7.0,No
+Peter Rogers,4,21354326,2.25,1.5,1.25,2.25,1.0,,,,1.65,0,Yes,Good,Handwritten,Flashcards,13.0,Yes
+Gina Glover,1,24107327,1.25,1.75,1.5,5.0,2.75,,,,2.54,1,No,Good,Handwritten,Pomodoro,11.0,No
+Jacob Gonzalez,2,23319699,2.25,2.0,2.75,2.25,2.5,1.5,5.0,3.0,2.67,1,No,Fair,Handwritten,Group Discussions,4.0,Yes
+Tami Hogan,1,24059800,1.0,2.0,4.0,2.5,2.0,,,,2.39,1,No,Poor,Digital,Pomodoro,14.0,No
+Daniel Davis,1,24693389,3.0,1.75,2.0,1.5,2.0,,,,1.98,0,Yes,Good,Handwritten,Group Discussions,15.0,Yes
+Robin Simmons,3,22506993,1.0,2.75,3.0,2.5,3.0,3.0,2.5,,2.54,0,Yes,Poor,Digital,Flashcards,1.0,Yes
+Brenda Martin,2,23014694,2.25,2.5,1.75,4.0,1.75,1.25,2.25,1.25,2.12,1,No,Poor,Digital,Summarizing,16.0,Yes
+Jordan Rodriguez,3,22178775,2.5,1.5,2.5,2.75,1.0,2.5,1.5,,2.04,0,No,Good,Digital,Pomodoro,18.0,Yes
+Rachel Campbell,4,21552955,2.75,2.0,3.0,1.0,2.5,,,,2.25,0,Yes,Good,Digital,Flashcards,19.0,Yes
+April Mccarthy,3,22272603,2.0,2.5,1.5,1.75,1.25,1.25,2.5,,1.82,0,No,Good,Handwritten,Pomodoro,19.0,Yes
+Julie Bailey,4,21007270,2.5,1.75,2.25,1.0,2.75,,,,2.05,0,Yes,Poor,Handwritten,Pomodoro,13.0,Yes
+Amber Potter,1,24544374,1.5,2.0,1.75,1.25,2.25,,,,1.77,0,Yes,Fair,Handwritten,Summarizing,7.0,No
+Latoya Wilson,4,21478410,2.0,1.0,3.0,1.25,5.0,,,,2.45,1,No,Good,Digital,Pomodoro,8.0,Yes
+Jessica Harris,4,21955892,1.5,5.0,1.0,1.25,4.0,,,,2.55,2,Yes,Fair,Handwritten,Flashcards,16.0,Yes
+Michael Bowman,2,23146765,2.0,2.5,2.25,3.0,2.0,2.0,1.5,2.0,2.16,0,Yes,Good,Digital,Pomodoro,11.0,Yes
+Margaret Davies MD,1,24185422,5.0,3.0,3.0,1.0,2.5,,,,2.75,1,Yes,Good,Handwritten,Pomodoro,16.0,Yes
+Shelly Howard,2,23103775,1.0,1.75,2.5,2.25,4.0,1.25,2.25,3.0,2.3,1,No,Good,Handwritten,Group Discussions,10.0,No
+Anthony Flores,4,21682288,1.0,2.5,5.0,2.75,3.0,,,,2.85,1,Yes,Fair,Digital,Summarizing,4.0,No
+Carol Morris,4,21070021,3.0,2.0,2.25,2.75,1.75,,,,2.35,0,Yes,Poor,Digital,Group Discussions,1.0,No
+Anthony Hernandez,1,24771374,2.25,1.5,5.0,1.5,1.25,,,,2.3,1,Yes,Good,Handwritten,Flashcards,8.0,Yes
+Ricardo Rowe,2,23541771,2.25,1.25,2.0,1.0,5.0,4.0,2.75,1.5,2.48,2,No,Good,Digital,Pomodoro,20.0,No
+Erik Wright,3,22754612,1.0,2.5,1.25,2.5,2.0,1.0,5.0,,2.18,1,Yes,Fair,Handwritten,Flashcards,4.0,Yes
+Michael Boone,4,21240275,2.5,2.75,1.5,1.5,4.0,,,,2.45,1,Yes,Fair,Handwritten,Summarizing,12.0,No
+Heather Watson,1,24119935,1.25,2.0,1.75,2.25,5.0,,,,2.54,1,No,Fair,Handwritten,Pomodoro,3.0,Yes
+John Jones,1,24474495,4.0,1.0,3.0,1.0,1.5,,,,1.96,1,Yes,Poor,Digital,Flashcards,15.0,No
+Austin Rivera,2,23992636,2.25,1.0,2.75,2.0,3.0,2.75,2.5,1.5,2.22,0,No,Poor,Handwritten,Pomodoro,14.0,Yes
+Jennifer Duarte,3,22949389,4.0,2.0,2.75,2.5,1.5,1.75,2.0,,2.36,1,Yes,Poor,Digital,Group Discussions,20.0,Yes
+Margaret Leach,3,22338893,1.5,2.25,2.25,2.0,1.75,2.5,1.5,,1.96,0,Yes,Good,Handwritten,Pomodoro,7.0,Yes
+Stefanie Green,1,24978953,2.5,4.0,1.25,4.0,2.5,,,,2.88,2,No,Fair,Handwritten,Pomodoro,11.0,No
+Shawn Guerrero,3,22546940,2.0,2.0,1.0,4.0,2.5,1.5,2.0,,2.14,1,Yes,Poor,Digital,Pomodoro,4.0,Yes
+Deborah Ferguson,2,23515693,4.0,5.0,2.5,2.25,2.0,3.0,1.0,1.25,2.57,2,No,Poor,Digital,Group Discussions,11.0,Yes
+Anthony Marquez,4,21699916,2.75,1.0,2.75,1.5,3.0,,,,2.2,0,No,Poor,Digital,Summarizing,7.0,Yes
+Karen Crosby,2,23231752,5.0,1.25,1.25,1.0,1.5,2.75,1.75,2.5,2.0,1,No,Poor,Handwritten,Pomodoro,4.0,Yes
+Michael Garcia,4,21894215,2.25,2.75,2.75,4.0,4.0,,,,3.15,2,No,Good,Digital,Flashcards,9.0,Yes
+Susan Smith,2,23889031,2.0,2.5,2.25,2.75,4.0,5.0,5.0,4.0,3.5,4,Yes,Fair,Handwritten,Flashcards,15.0,No
+Melissa Washington,4,21516138,1.25,1.75,1.5,2.25,2.25,,,,1.8,0,No,Poor,Digital,Pomodoro,19.0,No
+Amanda Johnson,3,22826544,1.0,1.0,3.0,3.0,5.0,2.75,4.0,,2.82,2,No,Good,Digital,Group Discussions,19.0,Yes
+Brittney Hernandez,1,24603899,1.0,5.0,3.0,1.0,2.75,,,,2.66,1,No,Poor,Digital,Flashcards,11.0,Yes
+Joseph Walton,4,21462572,2.5,2.0,1.5,1.75,1.75,,,,1.9,0,No,Poor,Handwritten,Pomodoro,2.0,No
+Kristina Smith,1,24167650,1.75,2.25,2.5,2.5,2.75,,,,2.39,0,Yes,Fair,Digital,Summarizing,8.0,No
+Alexandria Downs,3,22302378,5.0,3.0,1.25,5.0,5.0,2.0,5.0,,3.75,4,Yes,Poor,Digital,Group Discussions,16.0,No
+Nathaniel Wheeler,1,24270418,3.0,2.75,4.0,3.0,1.0,,,,2.73,1,Yes,Good,Digital,Pomodoro,10.0,No
+Matthew Figueroa,3,22329394,1.75,1.25,2.75,3.0,1.0,2.75,2.5,,2.14,0,No,Good,Digital,Pomodoro,8.0,No
+Robert Russell,1,24715100,3.0,2.0,1.25,2.75,2.75,,,,2.3,0,Yes,Poor,Handwritten,Pomodoro,13.0,Yes
+Eric Mcdaniel,3,22641132,4.0,2.75,4.0,1.25,4.0,1.75,1.0,,2.68,3,Yes,Fair,Handwritten,Flashcards,9.0,Yes
+George Smith,1,24517819,1.5,4.0,2.0,4.0,2.5,,,,2.89,2,No,Poor,Digital,Group Discussions,11.0,No
+Todd Perry,4,21385710,2.75,2.25,2.75,5.0,2.25,,,,3.0,1,Yes,Good,Digital,Summarizing,5.0,No
+Monica Cline,1,24685029,1.5,3.0,2.25,2.25,5.0,,,,2.89,1,Yes,Fair,Digital,Summarizing,2.0,No
+Jonathan Blackwell,3,22603632,2.5,2.25,1.0,1.75,1.0,4.0,1.5,,2.0,1,No,Good,Handwritten,Group Discussions,8.0,Yes
+Devin Barron,4,21781104,4.0,4.0,1.75,1.25,1.25,,,,2.45,2,Yes,Poor,Handwritten,Summarizing,2.0,Yes
+Molly Allen,2,23042468,5.0,2.75,2.75,1.25,3.0,2.5,5.0,3.0,3.08,2,Yes,Fair,Handwritten,Summarizing,4.0,Yes
+Jennifer Valencia,3,22417127,1.75,1.25,1.0,2.25,1.0,5.0,2.0,,2.04,1,No,Fair,Handwritten,Pomodoro,4.0,Yes
+Jason Hernandez PhD,4,21975799,1.5,3.0,2.75,1.25,1.0,,,,1.9,0,No,Fair,Handwritten,Summarizing,20.0,Yes
+Matthew Grant,3,22315122,2.25,2.0,2.25,1.5,3.0,1.75,1.25,,2.0,0,No,Fair,Handwritten,Group Discussions,5.0,No
+John Scott,2,23001274,3.0,2.5,3.0,2.0,2.0,4.0,1.25,2.25,2.48,1,Yes,Good,Handwritten,Pomodoro,17.0,Yes
+Donald Young,2,23187882,2.25,5.0,2.5,1.0,2.75,2.0,3.0,4.0,2.84,2,No,Fair,Handwritten,Flashcards,12.0,Yes
+Thomas Villa,2,23158662,5.0,4.0,5.0,1.0,2.0,1.0,2.0,1.5,2.59,3,No,Poor,Digital,Pomodoro,19.0,Yes
+William Smith,4,21231366,2.5,2.0,3.0,2.75,1.25,,,,2.3,0,Yes,Good,Handwritten,Summarizing,6.0,Yes
+John Young,3,22438549,1.75,1.25,2.75,1.5,2.75,1.25,4.0,,2.18,1,Yes,Poor,Digital,Summarizing,4.0,Yes
+Joanne Clark,3,22971445,1.5,1.5,1.75,2.25,5.0,1.25,5.0,,2.61,2,Yes,Fair,Handwritten,Flashcards,20.0,No
+Travis Phillips,2,23487122,1.25,3.0,4.0,2.25,2.5,3.0,1.0,2.75,2.52,1,Yes,Poor,Handwritten,Summarizing,11.0,Yes
+Kelly Johnson,1,24805095,4.0,1.25,3.0,2.75,2.25,,,,2.55,1,Yes,Poor,Digital,Pomodoro,9.0,No
+Claire Adams,4,21197202,2.75,2.75,2.75,1.25,3.0,,,,2.5,0,No,Poor,Handwritten,Summarizing,14.0,No
+Jeffrey Woodard,3,22556110,5.0,4.0,1.75,1.25,3.0,5.0,5.0,,3.57,4,No,Poor,Handwritten,Flashcards,19.0,Yes
+Christopher Ross,4,21505544,1.5,2.0,1.75,2.25,2.5,,,,2.0,0,No,Good,Handwritten,Group Discussions,1.0,Yes
+Elizabeth Dixon,1,24499778,2.5,2.5,1.0,1.5,4.0,,,,2.29,1,Yes,Good,Handwritten,Pomodoro,5.0,Yes
+William Cooper,1,24300775,1.75,2.75,4.0,1.0,1.25,,,,2.18,1,Yes,Poor,Handwritten,Summarizing,18.0,Yes
+Darlene Mccarty,3,22595878,1.25,2.25,2.25,1.0,4.0,1.75,5.0,,2.5,2,Yes,Good,Digital,Group Discussions,4.0,Yes
+Victoria Jones,2,23451877,5.0,2.25,1.25,2.75,1.0,2.75,1.25,2.5,2.23,1,No,Fair,Digital,Pomodoro,7.0,Yes
+Zachary Jones,1,24036043,2.5,2.75,3.0,1.75,3.0,,,,2.61,0,No,Good,Handwritten,Flashcards,7.0,No
+Troy Wilson,2,23794340,1.0,2.0,2.25,4.0,1.5,2.75,1.0,4.0,2.37,2,No,Fair,Handwritten,Group Discussions,1.0,No
+Courtney Powell,4,21090772,3.0,2.75,4.0,1.0,4.0,,,,2.95,2,No,Poor,Digital,Summarizing,18.0,Yes
+Randy White,2,23248941,1.0,1.0,1.5,2.75,2.5,1.5,5.0,1.0,2.08,1,No,Fair,Digital,Group Discussions,5.0,No
+Brian Juarez,2,23014658,2.25,1.75,4.0,4.0,1.0,1.75,2.0,2.25,2.38,2,Yes,Good,Digital,Flashcards,18.0,No
+Karen Yates,1,24340159,2.5,2.5,1.75,1.25,1.75,,,,1.91,0,No,Good,Handwritten,Summarizing,18.0,No
+Mary Zamora,3,22589614,2.25,1.75,2.25,2.75,1.5,1.25,2.0,,1.96,0,Yes,Fair,Digital,Group Discussions,15.0,Yes
+Mrs. Julia Velez DDS,2,23035959,2.5,2.25,1.75,1.0,5.0,1.5,2.75,2.75,2.43,1,Yes,Fair,Handwritten,Flashcards,3.0,No
+Richard Smith,4,21479194,1.75,4.0,2.25,4.0,5.0,,,,3.4,3,No,Good,Digital,Pomodoro,6.0,No
+Nicole Rosario,3,22483873,3.0,1.75,1.5,5.0,2.0,2.5,1.0,,2.39,1,Yes,Fair,Handwritten,Summarizing,6.0,Yes
+Jacqueline Castaneda,2,23495363,2.75,2.75,1.25,1.25,4.0,2.75,1.75,1.5,2.23,1,Yes,Good,Handwritten,Pomodoro,9.0,Yes
+Barbara Clark,3,22341590,2.75,1.75,1.0,5.0,4.0,2.0,1.0,,2.5,2,Yes,Good,Handwritten,Flashcards,16.0,Yes
+Logan Diaz,4,21870395,5.0,4.0,3.0,1.75,2.25,,,,3.2,2,Yes,Fair,Handwritten,Group Discussions,19.0,No
+Andrea Reyes,1,24790717,1.75,1.25,4.0,2.0,5.0,,,,2.88,2,No,Fair,Digital,Flashcards,15.0,No
+Savannah Bradshaw,2,23703909,2.5,2.75,4.0,2.5,1.0,2.0,4.0,1.25,2.5,2,No,Poor,Digital,Flashcards,13.0,No
+Tara Contreras,4,21303307,2.25,1.25,4.0,1.5,4.0,,,,2.6,2,Yes,Good,Digital,Flashcards,9.0,No
+Cheyenne Ross,1,24365531,1.0,2.25,1.5,1.25,2.25,,,,1.7,0,Yes,Good,Digital,Pomodoro,1.0,No
+Rebecca Knight,2,23798946,2.75,2.5,2.25,1.5,2.75,1.25,1.25,5.0,2.39,1,Yes,Good,Digital,Group Discussions,5.0,No
+Matthew Bailey,4,21403489,1.75,1.5,2.0,2.0,5.0,,,,2.45,1,No,Good,Digital,Summarizing,10.0,No
+Joshua Osborne,3,22162769,2.75,2.25,2.5,1.75,1.75,2.5,2.5,,2.29,0,Yes,Poor,Handwritten,Pomodoro,11.0,Yes
+Andre Harding,2,23036514,4.0,1.0,1.0,1.5,2.25,1.5,4.0,5.0,2.47,3,Yes,Fair,Digital,Group Discussions,17.0,No
+Laura Barnes MD,3,22310203,1.25,1.25,5.0,1.75,2.5,1.75,1.5,,2.14,1,Yes,Good,Handwritten,Flashcards,2.0,Yes
+Amy Roberts,3,22469657,2.75,2.25,1.25,5.0,2.75,2.25,2.0,,2.61,1,No,Good,Handwritten,Pomodoro,4.0,Yes
+David Gonzalez,1,24573849,1.0,1.5,2.75,2.75,1.25,,,,1.91,0,Yes,Fair,Handwritten,Group Discussions,15.0,No
+Thomas Stewart,2,23135385,1.25,2.25,1.25,3.0,3.0,4.0,2.75,1.5,2.42,1,Yes,Poor,Digital,Summarizing,10.0,Yes
+Jason Jones,2,23118515,2.25,1.5,2.0,1.75,2.75,1.25,1.75,1.0,1.76,0,No,Poor,Handwritten,Summarizing,5.0,No
+Maria Sharp,2,23549821,2.0,1.25,1.0,2.5,1.25,1.75,2.5,4.0,2.03,1,No,Good,Digital,Group Discussions,11.0,No
+Zachary Carey,1,24841091,2.75,2.25,2.0,1.5,1.25,,,,1.89,0,Yes,Good,Handwritten,Flashcards,11.0,No
+Krista Merritt,4,21059846,2.75,4.0,1.75,2.0,2.75,,,,2.65,1,No,Poor,Handwritten,Group Discussions,14.0,No
+Kaitlyn Lambert,1,24584689,5.0,2.5,2.25,1.25,3.0,,,,2.64,1,No,Fair,Digital,Pomodoro,20.0,Yes
+Jose Walker,2,23576682,2.5,5.0,2.5,4.0,5.0,2.75,4.0,2.25,3.54,4,No,Good,Digital,Group Discussions,6.0,Yes
+Debra Parker,1,24792601,2.75,1.75,4.0,5.0,1.75,,,,3.07,2,Yes,Fair,Handwritten,Group Discussions,8.0,Yes
+Emma Whitehead,4,21100195,2.25,1.0,5.0,2.0,2.0,,,,2.45,1,Yes,Fair,Handwritten,Flashcards,2.0,Yes
+Vanessa Nelson,1,24364113,2.25,3.0,4.0,3.0,1.0,,,,2.68,1,Yes,Poor,Handwritten,Group Discussions,18.0,No
+Robert Terrell,3,22593450,2.5,1.75,1.75,2.5,1.0,2.75,1.0,,1.89,0,No,Poor,Digital,Summarizing,9.0,Yes
+Cindy Brown,2,23032469,2.75,2.5,1.25,1.75,2.5,1.0,1.25,2.75,1.93,0,No,Good,Digital,Flashcards,2.0,No
+Jeremiah Mckenzie,4,21974061,4.0,1.75,2.75,2.25,5.0,,,,3.15,2,Yes,Good,Digital,Pomodoro,15.0,Yes
+Mark Yates,4,21058979,1.5,3.0,2.0,2.5,2.0,,,,2.2,0,No,Fair,Handwritten,Pomodoro,7.0,Yes
+Greg Walter,1,24505243,2.5,2.25,4.0,2.75,2.5,,,,2.82,1,No,Poor,Digital,Group Discussions,11.0,No
+Patrick Ortega,3,22393261,5.0,1.75,2.0,1.5,1.75,1.75,2.75,,2.36,1,No,Good,Digital,Pomodoro,6.0,No
+Jared Powers,1,24165107,2.5,1.25,1.75,2.25,4.0,,,,2.34,1,No,Poor,Digital,Flashcards,4.0,No
+Leah Prince,2,23173415,1.25,5.0,5.0,2.25,2.0,1.5,2.25,1.75,2.68,2,No,Fair,Digital,Pomodoro,3.0,No
+David Lester,4,21730973,2.5,1.75,2.25,3.0,2.25,,,,2.35,0,No,Good,Digital,Summarizing,12.0,No
+Lynn Smith,1,24049508,1.0,4.0,4.0,2.75,1.25,,,,2.71,2,Yes,Poor,Handwritten,Flashcards,14.0,Yes
+Jennifer Green,2,23577861,1.5,2.75,1.25,2.25,5.0,2.25,1.0,1.0,2.15,1,No,Good,Digital,Flashcards,6.0,Yes
+Dr. Kristine Chen,2,23444857,2.75,2.0,4.0,1.5,4.0,3.0,1.75,1.75,2.59,2,Yes,Good,Digital,Flashcards,13.0,Yes
+Stephen Cain,1,24147716,1.25,3.0,1.75,1.5,1.5,,,,1.84,0,Yes,Fair,Digital,Summarizing,17.0,Yes
+Derrick Nelson,2,23281552,1.0,1.0,3.0,1.25,1.25,2.0,1.25,5.0,2.01,1,Yes,Good,Digital,Pomodoro,15.0,Yes
+Lisa Dunn,3,22499422,1.0,1.25,5.0,4.0,1.75,2.5,2.75,,2.61,2,No,Good,Handwritten,Group Discussions,7.0,Yes
+Miss Jaime Martin,4,21459551,1.0,5.0,3.0,3.0,2.5,,,,2.9,1,Yes,Poor,Handwritten,Flashcards,8.0,Yes
+Francisco Wells,1,24119701,1.25,1.0,2.25,2.75,1.5,,,,1.79,0,No,Fair,Digital,Flashcards,12.0,No
+Zachary Young,1,24031012,1.0,4.0,1.0,2.0,2.0,,,,2.07,1,Yes,Good,Digital,Group Discussions,5.0,No
+Tyler Gibbs DDS,3,22411704,1.75,1.5,1.5,2.0,1.25,4.0,1.0,,1.86,1,Yes,Fair,Handwritten,Summarizing,3.0,Yes
+Leslie Jensen,1,24075823,2.5,3.0,1.5,5.0,2.25,,,,2.88,1,No,Good,Digital,Pomodoro,3.0,Yes
+Stephanie Everett,3,22804896,2.0,5.0,1.25,2.0,2.25,1.75,2.25,,2.36,1,No,Poor,Digital,Summarizing,11.0,Yes
+Kimberly Rice,1,24638477,1.75,4.0,2.5,2.5,5.0,,,,3.25,2,No,Poor,Handwritten,Summarizing,7.0,Yes
+Sherry Taylor,2,23806402,4.0,1.0,1.25,4.0,4.0,1.0,1.0,1.5,2.14,3,Yes,Fair,Handwritten,Flashcards,20.0,Yes
+Jenna Howard,2,23834294,1.25,1.0,1.75,2.0,1.25,1.25,1.5,1.5,1.45,0,Yes,Poor,Handwritten,Summarizing,18.0,Yes
+Donna Jones,4,21037149,2.0,5.0,1.5,2.0,4.0,,,,2.9,2,Yes,Poor,Handwritten,Flashcards,2.0,No
+Jamie Ortiz,1,24653696,2.5,5.0,1.5,1.5,1.75,,,,2.45,1,Yes,Fair,Digital,Flashcards,6.0,Yes
+Destiny Kelley,2,23637866,5.0,4.0,1.25,2.25,1.75,1.25,1.25,2.0,2.23,2,Yes,Fair,Digital,Pomodoro,14.0,Yes
+Jodi Meyer,1,24560462,2.75,2.0,3.0,3.0,2.25,,,,2.59,0,No,Good,Handwritten,Flashcards,7.0,No
+Kristin Hensley,2,23256585,2.5,1.0,1.0,5.0,1.0,2.5,3.0,2.75,2.34,1,No,Poor,Digital,Summarizing,17.0,No
+Melinda Frye,4,21895422,2.0,1.0,1.0,2.0,5.0,,,,2.2,1,Yes,Fair,Digital,Summarizing,18.0,No
+Mary Young,3,22591961,4.0,5.0,1.25,2.75,5.0,1.75,4.0,,3.39,4,Yes,Poor,Handwritten,Flashcards,12.0,No
+Courtney Sanchez,3,22743260,1.75,1.0,1.75,5.0,1.5,1.0,2.5,,2.07,1,Yes,Poor,Handwritten,Pomodoro,10.0,No
+Oscar Juarez,3,22766363,1.5,1.25,1.25,1.75,1.0,1.0,5.0,,1.82,1,No,Poor,Handwritten,Group Discussions,16.0,Yes
+Sean Mitchell,1,24231597,3.0,3.0,1.25,3.0,3.0,,,,2.62,0,Yes,Good,Handwritten,Flashcards,20.0,No
+Dylan Bell,2,23705676,4.0,1.25,5.0,2.0,1.5,1.25,4.0,1.0,2.43,3,No,Good,Handwritten,Pomodoro,14.0,Yes
+Tony Glover,2,23525357,2.75,2.25,2.75,5.0,2.5,1.75,1.25,5.0,2.91,2,Yes,Poor,Handwritten,Flashcards,4.0,Yes
+Steven Blankenship,3,22752214,2.5,3.0,1.25,2.0,5.0,1.75,2.75,,2.61,1,Yes,Good,Handwritten,Flashcards,14.0,No
+Jennifer Estes MD,1,24684772,5.0,2.5,2.5,1.25,1.5,,,,2.38,1,No,Fair,Handwritten,Flashcards,1.0,No
+Kaitlyn Jones,2,23576710,1.0,2.0,2.75,1.0,2.0,3.0,1.25,3.0,2.04,0,Yes,Poor,Handwritten,Group Discussions,20.0,Yes
+Jesus Barry,3,22430562,1.0,2.25,2.0,2.5,1.5,1.5,5.0,,2.25,1,Yes,Poor,Digital,Pomodoro,15.0,Yes
+Joel Jackson,2,23047038,2.25,1.25,5.0,2.0,2.0,3.0,2.5,5.0,2.9,2,Yes,Fair,Digital,Pomodoro,11.0,No
+Tamara Smith,1,24032269,2.25,4.0,4.0,1.75,1.0,,,,2.62,2,Yes,Good,Digital,Summarizing,1.0,Yes
+Stanley Jackson,2,23168023,5.0,3.0,2.75,1.0,2.25,2.5,1.75,2.75,2.52,1,No,Poor,Digital,Flashcards,11.0,No
+Mary Pugh,3,22086724,1.25,1.25,2.25,1.5,2.0,1.25,2.75,,1.75,0,No,Poor,Handwritten,Flashcards,20.0,No
+Gabriel Price,2,23220379,2.0,3.0,2.5,4.0,2.75,1.5,2.0,5.0,2.88,2,Yes,Poor,Handwritten,Pomodoro,14.0,No
+David Nelson,1,24617662,1.5,2.5,1.5,1.25,1.5,,,,1.66,0,Yes,Fair,Handwritten,Summarizing,9.0,Yes
+Charles Williamson,4,21869850,3.0,1.5,1.0,5.0,5.0,,,,3.1,2,Yes,Fair,Digital,Summarizing,18.0,Yes
+Charles Wilson,4,21494918,4.0,1.0,3.0,2.75,2.0,,,,2.55,1,Yes,Poor,Handwritten,Pomodoro,18.0,No
+Andrew Nixon,4,21978954,1.75,1.0,1.0,2.25,2.75,,,,1.75,0,No,Poor,Handwritten,Flashcards,8.0,Yes
+Holly Harris,4,21789012,5.0,1.25,1.0,2.5,1.5,,,,2.25,1,Yes,Poor,Digital,Flashcards,17.0,Yes
+Autumn Miller,1,24202395,1.75,5.0,4.0,2.25,2.75,,,,3.25,2,Yes,Poor,Digital,Summarizing,13.0,Yes
+Vanessa Martin,3,22558954,2.5,2.5,2.25,2.75,2.25,2.0,1.75,,2.29,0,No,Good,Handwritten,Summarizing,19.0,No
+Aaron Gonzalez,3,22975759,2.75,2.25,2.5,2.25,3.0,5.0,1.5,,2.75,1,No,Poor,Handwritten,Summarizing,13.0,Yes
+Austin Dickson,1,24384191,3.0,2.75,2.25,5.0,5.0,,,,3.64,2,No,Poor,Digital,Flashcards,6.0,No
+Darius Williams,1,24757425,2.0,4.0,4.0,3.0,5.0,,,,3.71,3,No,Good,Digital,Flashcards,6.0,Yes
+Gregory Johnson,3,22898289,2.5,4.0,1.75,5.0,4.0,5.0,2.0,,3.46,4,Yes,Good,Digital,Flashcards,1.0,No
+Nathan Martinez,1,24073729,2.75,1.0,2.75,1.5,2.25,,,,2.0,0,No,Poor,Handwritten,Summarizing,13.0,No
+Logan Smith,3,22295511,1.5,1.5,2.75,2.5,5.0,4.0,2.0,,2.75,2,No,Poor,Digital,Summarizing,13.0,Yes
+Jessica Le,1,24021626,1.0,2.0,2.0,3.0,4.0,,,,2.5,1,Yes,Poor,Handwritten,Summarizing,18.0,No
+John Brooks,1,24312565,1.25,1.25,1.5,2.5,2.25,,,,1.79,0,Yes,Fair,Handwritten,Pomodoro,15.0,Yes
+Phillip Oconnor,3,22219007,1.0,1.75,2.25,2.5,3.0,1.75,3.0,,2.18,0,Yes,Poor,Handwritten,Group Discussions,14.0,No
+Jason Cox,2,23260888,4.0,2.75,5.0,1.25,3.0,1.25,3.0,2.25,2.76,2,No,Poor,Handwritten,Flashcards,1.0,Yes
+Jennifer Maldonado,4,21906850,1.0,5.0,1.0,3.0,2.25,,,,2.45,1,No,Poor,Handwritten,Flashcards,19.0,No
+Sabrina Turner,4,21628251,3.0,3.0,1.5,2.5,1.25,,,,2.25,0,Yes,Fair,Digital,Flashcards,11.0,No
+Ronnie Wright,3,22521450,1.5,1.25,2.25,1.0,1.75,2.75,2.25,,1.82,0,No,Good,Digital,Group Discussions,4.0,Yes
+Rhonda Thompson,3,22525276,1.25,1.0,5.0,5.0,2.75,3.0,1.25,,2.75,2,No,Good,Digital,Pomodoro,20.0,No
+Christopher Webster,3,22054502,2.0,5.0,1.25,4.0,2.0,1.25,1.5,,2.43,2,Yes,Fair,Digital,Summarizing,14.0,No
+Alexander Weber,4,21246968,1.0,1.5,5.0,4.0,2.25,,,,2.75,2,Yes,Good,Handwritten,Pomodoro,18.0,No
+Sean Donaldson,3,22488165,5.0,2.5,4.0,2.5,1.5,2.25,2.0,,2.82,2,Yes,Poor,Handwritten,Group Discussions,1.0,Yes
+Nathan Jimenez,1,24005511,5.0,1.25,3.0,4.0,1.75,,,,2.86,2,Yes,Fair,Digital,Group Discussions,4.0,No
+Melissa Jenkins,3,22080962,2.25,2.25,4.0,4.0,2.25,2.5,1.75,,2.71,2,Yes,Good,Handwritten,Group Discussions,17.0,Yes
+Zachary Foster,3,22981112,1.5,3.0,1.5,2.5,2.0,2.5,2.75,,2.25,0,Yes,Good,Handwritten,Flashcards,11.0,Yes
+Daniel Rojas,4,21236325,3.0,2.0,2.5,4.0,4.0,,,,3.1,2,Yes,Fair,Handwritten,Group Discussions,11.0,Yes
+John Norman,3,22987665,1.5,5.0,2.25,4.0,5.0,2.0,1.5,,3.04,3,No,Good,Handwritten,Pomodoro,15.0,No
+Tina Webster,3,22468277,1.5,1.5,1.5,2.25,1.0,3.0,3.0,,1.96,0,No,Good,Digital,Summarizing,5.0,Yes
+Amanda Myers,2,23027654,1.5,1.75,1.5,1.0,2.5,1.25,2.0,1.0,1.57,0,No,Fair,Handwritten,Pomodoro,14.0,No
+Jeanne Bryant,1,24102359,1.0,1.0,1.25,1.5,1.5,,,,1.27,0,No,Good,Handwritten,Summarizing,12.0,No
+Tiffany Johnson,3,22872776,3.0,2.25,3.0,2.0,1.5,2.0,1.25,,2.14,0,No,Fair,Digital,Summarizing,19.0,Yes
+Jessica Nguyen,2,23339263,2.0,1.0,2.5,2.75,2.25,1.0,2.5,1.75,1.97,0,No,Poor,Handwritten,Group Discussions,1.0,No
+Sara Gonzales,1,24849011,4.0,2.25,3.0,2.5,5.0,,,,3.3,2,Yes,Poor,Digital,Pomodoro,4.0,Yes
+James Adkins,3,22733229,2.75,1.0,2.0,2.25,1.75,2.75,1.75,,2.04,0,No,Good,Digital,Summarizing,11.0,No
+Angela Sutton,3,22607216,1.5,2.25,1.25,2.5,1.5,2.25,2.5,,1.96,0,No,Good,Handwritten,Flashcards,11.0,No
+Randall Stafford,1,24030116,2.75,3.0,2.5,2.5,1.5,,,,2.43,0,Yes,Good,Digital,Group Discussions,4.0,Yes
+Angela Coffey DVM,3,22255795,2.0,2.25,1.0,4.0,2.0,2.25,1.25,,2.11,1,No,Good,Digital,Pomodoro,13.0,No
+Mary Estrada,1,24630068,2.25,2.0,2.25,2.75,2.75,,,,2.41,0,No,Fair,Handwritten,Group Discussions,17.0,Yes
+Jessica Martinez,3,22811824,1.25,2.25,2.5,4.0,2.0,1.0,2.25,,2.18,1,No,Fair,Digital,Summarizing,15.0,Yes
+Robert Chase,4,21398206,2.25,1.25,1.5,1.25,2.25,,,,1.7,0,No,Fair,Handwritten,Flashcards,20.0,Yes
+Anthony Smith,3,22449133,2.5,1.75,4.0,2.5,5.0,5.0,2.5,,3.32,3,No,Poor,Digital,Group Discussions,12.0,No
+Matthew Jackson,1,24059455,2.0,1.5,1.25,4.0,1.75,,,,2.11,1,Yes,Poor,Handwritten,Summarizing,6.0,No
+Rhonda Ruiz,4,21236097,5.0,2.0,2.0,2.5,1.25,,,,2.55,1,Yes,Poor,Handwritten,Group Discussions,19.0,No
+James Patterson,2,23995147,1.25,2.75,2.5,1.25,3.0,3.0,1.5,1.5,2.13,0,No,Poor,Handwritten,Summarizing,14.0,Yes
+Jo Brown,1,24325075,3.0,2.75,2.5,2.75,1.75,,,,2.52,0,No,Fair,Handwritten,Summarizing,17.0,No
+Jill Barrett,4,21884279,2.5,4.0,5.0,1.5,1.75,,,,2.95,2,No,Good,Digital,Group Discussions,14.0,Yes
+Rachael Patterson,2,23290766,1.75,1.75,1.25,1.25,1.0,3.0,3.0,4.0,2.14,1,No,Fair,Digital,Group Discussions,20.0,No
+Colleen Ball,4,21018503,4.0,2.0,1.75,1.5,2.25,,,,2.3,1,No,Fair,Digital,Group Discussions,15.0,Yes
+Nicole Gonzalez,2,23261885,2.75,4.0,2.0,3.0,3.0,2.0,2.25,5.0,3.01,2,Yes,Poor,Digital,Flashcards,16.0,No
+Daniel Clayton,1,24089300,2.0,1.75,5.0,3.0,2.75,,,,2.96,1,No,Poor,Handwritten,Group Discussions,3.0,No
+Veronica Baird,4,21169056,1.75,1.5,3.0,2.75,1.75,,,,2.15,0,Yes,Fair,Digital,Pomodoro,16.0,No
+Richard Raymond,1,24845228,2.5,1.5,1.25,1.25,1.5,,,,1.54,0,Yes,Fair,Digital,Pomodoro,17.0,Yes
+Bryan Wright,2,23546091,2.75,2.0,2.75,1.25,1.75,2.25,1.0,2.0,1.93,0,Yes,Good,Digital,Group Discussions,5.0,Yes
+Mallory Garza,2,23623512,1.0,2.25,1.0,2.5,1.25,1.0,1.25,1.75,1.52,0,Yes,Poor,Handwritten,Pomodoro,9.0,Yes
+Alexis Butler,3,22790809,1.25,3.0,3.0,1.5,2.75,5.0,5.0,,3.07,2,No,Good,Digital,Flashcards,2.0,Yes
+Carmen Lopez,3,22461436,1.0,4.0,2.0,4.0,1.0,4.0,3.0,,2.71,3,Yes,Poor,Digital,Group Discussions,20.0,Yes
+Cassandra Oliver,2,23302685,1.5,1.75,1.25,1.0,3.0,1.75,1.0,1.25,1.57,0,Yes,Good,Digital,Pomodoro,4.0,Yes
+Greg Nash,3,22413218,4.0,4.0,1.5,2.0,5.0,1.0,4.0,,3.07,4,Yes,Fair,Handwritten,Group Discussions,4.0,Yes
+David Lane,1,24147717,2.0,1.5,2.75,3.0,5.0,,,,2.91,1,Yes,Poor,Digital,Summarizing,4.0,Yes
+Allison Miller,1,24767058,2.0,4.0,2.0,1.5,4.0,,,,2.75,2,Yes,Good,Digital,Group Discussions,16.0,No
+Rachel Edwards,3,22732494,1.75,1.5,2.5,4.0,2.75,2.5,2.5,,2.5,1,Yes,Fair,Digital,Flashcards,4.0,No
+Jennifer Henry,4,21322611,1.5,4.0,2.5,3.0,1.75,,,,2.55,1,Yes,Good,Digital,Pomodoro,3.0,No
+Julie Hahn,1,24411167,2.0,1.75,2.75,2.5,1.25,,,,2.05,0,No,Poor,Digital,Pomodoro,6.0,No
+Tara Montgomery,2,23484304,2.5,3.0,1.0,3.0,2.25,1.75,2.0,2.75,2.27,0,Yes,Fair,Digital,Group Discussions,9.0,Yes
+Scott Burnett,1,24102132,1.0,5.0,3.0,2.25,1.0,,,,2.55,1,No,Poor,Handwritten,Flashcards,20.0,Yes
+Vanessa Montgomery,2,23981393,1.5,1.5,2.25,2.25,2.0,1.5,1.0,1.25,1.66,0,Yes,Poor,Digital,Pomodoro,17.0,No
+Denise Schmitt,4,21705933,2.5,2.0,2.75,2.5,1.75,,,,2.3,0,No,Fair,Handwritten,Pomodoro,2.0,Yes
+Veronica Wright,4,21638649,1.5,1.75,2.75,1.5,5.0,,,,2.5,1,Yes,Fair,Digital,Summarizing,6.0,No
+Isaiah Berry,1,24285109,1.25,3.0,3.0,1.0,2.0,,,,2.11,0,No,Fair,Handwritten,Group Discussions,15.0,No
+Tony Ford,3,22631404,5.0,4.0,2.75,2.75,4.0,1.75,2.75,,3.29,3,Yes,Fair,Handwritten,Pomodoro,11.0,No
+Arthur Marquez,1,24742963,2.5,1.25,1.75,1.0,1.75,,,,1.59,0,No,Poor,Handwritten,Group Discussions,18.0,Yes
+Tracy Willis,3,22997772,2.25,1.25,1.75,4.0,4.0,1.25,3.0,,2.5,2,No,Fair,Handwritten,Group Discussions,1.0,No
+David Johnson,1,24051507,5.0,4.0,1.0,2.0,2.5,,,,2.75,2,Yes,Fair,Digital,Group Discussions,20.0,No
+Pamela Adams,2,23567735,2.25,2.75,2.5,1.5,2.25,1.0,2.0,1.5,1.96,0,Yes,Poor,Digital,Flashcards,1.0,Yes
+David Cook,1,24096898,1.75,1.0,1.75,5.0,4.0,,,,2.77,2,No,Poor,Digital,Summarizing,20.0,Yes
+Sharon Compton,2,23318526,1.25,1.25,1.0,2.5,2.75,2.75,1.5,4.0,2.16,1,,,,,,
+Micheal Robinson,1,24054797,4.0,3.0,4.0,1.75,2.75,,,,3.04,2,,,,,,
+Kari Taylor,3,22851278,2.75,2.75,2.25,2.5,4.0,4.0,1.75,,2.86,2,,,,,,
+Jack Kelley,2,23661884,3.0,2.5,1.25,1.0,3.0,1.25,2.25,1.5,1.92,0,,,,,,
+Joseph Walker,2,23606427,5.0,2.25,2.25,2.25,2.25,2.0,1.25,1.25,2.2,1,,,,,,
+Erin Arnold,2,23570401,2.25,4.0,2.25,1.0,1.25,1.0,2.75,2.5,2.12,1,,,,,,
+Sara Patterson,1,24641339,2.0,1.25,2.5,1.75,5.0,,,,2.54,1,,,,,,
+Jesus Gonzalez,4,21154517,1.0,5.0,2.0,4.0,1.5,,,,2.7,2,,,,,,
+Mary Brown,4,21916256,1.75,2.75,2.5,3.0,3.0,,,,2.6,0,,,,,,
+Kimberly West,4,21368959,3.0,1.0,3.0,5.0,4.0,,,,3.2,2,,,,,,
+Jeffrey Medina,1,24736499,1.0,4.0,1.5,1.0,1.75,,,,1.91,1,,,,,,
+Louis Farrell,2,23110760,2.5,3.0,2.5,3.0,2.75,1.25,4.0,1.5,2.57,1,,,,,,
+Jeffrey Barry,1,24229317,2.0,1.75,4.0,5.0,1.75,,,,2.96,2,,,,,,
+Diane Morgan,2,23981147,5.0,1.75,1.25,2.0,5.0,2.25,3.0,5.0,3.08,3,,,,,,
+Julie Rangel,4,21786707,1.25,1.75,1.0,4.0,2.0,,,,2.0,1,,,,,,
+Jonathan Lamb,1,24174968,1.25,2.5,1.5,5.0,2.0,,,,2.54,1,,,,,,
+Christopher Mcintyre,2,23274302,5.0,4.0,1.75,1.0,4.0,2.0,2.75,1.0,2.59,3,,,,,,
+Chad Hayes,4,21672014,1.25,3.0,1.25,2.5,1.75,,,,1.95,0,,,,,,
+Larry Chan,4,21505032,2.0,1.0,2.0,2.25,1.5,,,,1.75,0,,,,,,
+Maria Lucas,4,21388261,2.0,2.25,5.0,4.0,2.75,,,,3.2,2,,,,,,
+Shelby Crawford,2,23063387,4.0,2.0,1.5,1.5,1.25,3.0,2.25,2.25,2.14,1,,,,,,
+Tonya York,1,24568154,1.0,2.25,2.25,1.0,1.5,,,,1.64,0,,,,,,
+Christopher Smith,1,24825525,1.0,2.5,2.5,4.0,2.0,,,,2.5,1,,,,,,
+Tina Keller,3,22295925,1.5,2.25,1.0,5.0,2.5,4.0,1.0,,2.46,2,,,,,,
+Keith Lee,2,23641783,1.75,1.25,1.25,1.25,3.0,2.25,1.75,2.0,1.82,0,,,,,,
+Dr. Sarah Lawson,3,22517122,1.5,4.0,2.75,2.75,1.25,1.75,1.75,,2.25,1,,,,,,
+Jason Gardner,1,24604065,1.25,1.5,2.5,3.0,3.0,,,,2.32,0,,,,,,
+Angela Gross,4,21783971,2.5,2.5,1.75,1.25,2.25,,,,2.05,0,,,,,,
+Ronald Gonzalez,3,22292141,1.0,1.75,2.5,1.5,1.0,2.0,4.0,,1.96,1,,,,,,
+Amber Palmer,1,24049989,2.75,1.25,2.0,4.0,2.0,,,,2.38,1,,,,,,
+William Chaney,3,22981088,3.0,5.0,2.25,2.25,2.0,5.0,4.0,,3.36,3,,,,,,
+Paul Pineda,2,23610459,2.25,5.0,2.75,1.5,1.25,1.5,2.5,3.0,2.48,1,,,,,,
+James Cameron,4,21714135,2.5,3.0,2.5,4.0,2.25,,,,2.85,1,,,,,,
+Joe Booker,1,24471368,1.25,2.25,2.25,5.0,1.0,,,,2.43,1,,,,,,
+Anna Robertson,4,21691127,2.5,2.0,1.0,5.0,5.0,,,,3.1,2,,,,,,
+Kelly Hansen,4,21447162,1.5,2.5,3.0,2.5,1.75,,,,2.25,0,,,,,,
+Michael Porter,1,24455991,1.25,1.0,1.75,5.0,1.0,,,,2.05,1,,,,,,
+Kevin Cardenas,2,23293484,1.75,5.0,1.0,2.5,3.0,3.0,2.5,1.75,2.6,1,,,,,,
+Melissa Lamb,3,22502893,1.25,2.75,1.0,5.0,1.25,5.0,3.0,,2.75,2,,,,,,
+Christina Shah,2,23270984,5.0,1.75,3.0,1.0,4.0,3.0,1.75,5.0,2.98,3,,,,,,
+Rachel Lee,1,24376941,1.0,2.25,2.25,1.5,1.0,,,,1.64,0,,,,,,
+Robert Mack,2,23339475,2.75,1.25,1.5,2.25,1.0,2.0,3.0,1.25,1.84,0,,,,,,
+Larry Cervantes,3,22843784,2.75,2.75,2.25,2.0,5.0,3.0,3.0,,2.96,1,,,,,,
+Marc Brown,1,24333653,2.25,1.25,1.5,1.25,2.5,,,,1.71,0,,,,,,
+Michelle Hawkins,4,21135911,2.5,5.0,3.0,1.5,3.0,,,,3.0,1,,,,,,
+Joseph Gonzales,3,22922298,2.5,2.5,4.0,2.25,5.0,2.25,3.0,,3.07,2,,,,,,
+Blake Sullivan,3,22940031,1.0,1.25,5.0,2.25,2.5,2.0,2.25,,2.32,1,,,,,,
+Johnny Ayala,2,23981884,2.0,1.25,4.0,1.75,2.75,1.25,1.5,1.5,2.0,1,,,,,,
+Craig Gray,4,21906592,1.0,4.0,2.0,1.0,1.75,,,,1.95,1,,,,,,
+Anthony Griffin,1,24786171,2.5,2.5,1.25,1.75,2.0,,,,1.96,0,,,,,,
+Kaitlyn Hall,1,24245042,2.25,1.25,2.25,2.25,5.0,,,,2.62,1,,,,,,
+Natalie Vargas,4,21611315,2.0,5.0,1.25,4.0,2.0,,,,2.85,2,,,,,,
+Jacob Lloyd,3,22090101,5.0,2.25,2.5,3.0,1.0,5.0,4.0,,3.25,3,,,,,,
+Brian Fletcher,4,21773060,2.5,1.75,1.25,1.0,2.25,,,,1.75,0,,,,,,
+Leslie Lewis,2,23292286,2.0,2.5,2.5,2.5,2.0,2.0,1.0,1.75,2.03,0,,,,,,
+Lance Cook,3,22108980,3.0,3.0,1.75,2.25,2.5,2.5,4.0,,2.71,1,,,,,,
+Scott Arias,2,23943022,1.0,2.75,3.0,5.0,1.0,3.0,2.25,2.5,2.63,1,,,,,,
+Austin Evans,2,23747516,1.5,2.25,4.0,5.0,1.75,2.5,1.5,3.0,2.74,2,,,,,,
+Megan Harrington,1,24584726,2.75,3.0,1.75,2.25,4.0,,,,2.75,1,,,,,,
+Samantha Heath,3,22319412,2.0,1.75,1.75,1.5,1.0,1.5,2.0,,1.64,0,,,,,,
+Makayla Alvarez,4,21369015,4.0,1.25,1.25,1.75,4.0,,,,2.45,2,,,,,,
+Tammy Conway,4,21323735,1.75,4.0,2.5,2.25,1.5,,,,2.4,1,,,,,,
+Erik Lambert,3,22499844,1.75,4.0,1.25,2.5,1.75,2.25,2.25,,2.25,1,,,,,,
+Richard Guzman,3,22775942,1.75,1.25,3.0,2.75,2.75,4.0,4.0,,2.79,2,,,,,,
+Jorge Lopez,4,21007109,2.25,1.75,2.5,1.25,5.0,,,,2.55,1,,,,,,
+Jessica Ashley,1,24455941,5.0,4.0,5.0,2.75,2.25,,,,3.71,3,,,,,,
+Caitlin Yang,3,22748405,2.5,1.5,4.0,2.75,2.25,2.5,2.5,,2.57,1,,,,,,
+Jeffrey Johnson,3,22166916,1.5,2.75,4.0,1.75,1.75,1.25,2.25,,2.18,1,,,,,,
+Thomas Thompson,4,21182540,4.0,2.25,2.75,3.0,2.5,,,,2.9,1,,,,,,
+Victoria Benitez,4,21788748,4.0,2.5,1.0,4.0,1.5,,,,2.6,2,,,,,,
+Donna Lee,1,24287809,5.0,4.0,1.75,1.25,2.0,,,,2.64,2,,,,,,
+Troy Phillips,1,24992990,1.25,2.0,2.75,2.5,2.75,,,,2.32,0,,,,,,
+Matthew Tran,4,21063750,2.0,3.0,1.75,2.25,2.75,,,,2.35,0,,,,,,
+Ryan Smith,3,22422451,2.5,5.0,3.0,4.0,1.25,1.25,4.0,,3.0,3,,,,,,
+Lisa Bell,1,24244179,2.5,1.5,5.0,1.5,1.0,,,,2.29,1,,,,,,
+Leah Davis,1,24518944,4.0,1.75,1.75,1.0,2.75,,,,2.12,1,,,,,,
+Kara Coleman,2,23862545,2.0,5.0,1.0,2.5,2.25,5.0,2.0,1.0,2.62,2,,,,,,
+Michael Brown,1,24656017,1.75,4.0,1.75,1.5,2.75,,,,2.39,1,,,,,,
+Gerald Collins,4,21365237,1.75,4.0,5.0,1.0,1.5,,,,2.65,2,,,,,,
+Brian Clark,3,22456081,4.0,2.5,2.5,1.25,1.25,1.0,2.5,,2.14,1,,,,,,
+Greg Patterson,4,21637483,1.25,1.5,1.25,5.0,1.0,,,,2.0,1,,,,,,
+Carrie Stephenson,3,22711377,5.0,3.0,1.5,1.25,3.0,2.0,1.25,,2.43,1,,,,,,
+Jessica Ford,4,21668577,1.25,1.75,1.0,5.0,2.75,,,,2.35,1,,,,,,
+Catherine Joyce,2,23594628,1.75,2.75,3.0,2.0,3.0,1.0,2.75,2.75,2.4,0,,,,,,
+Megan Griffin,1,24382759,2.0,1.25,2.5,1.5,5.0,,,,2.48,1,,,,,,
+Barbara Simpson,1,24811354,2.75,2.75,1.25,2.0,2.75,,,,2.27,0,,,,,,
+Frederick Jones,3,22894339,1.5,2.25,2.5,1.5,2.5,1.75,2.0,,2.0,0,,,,,,
+Tonya Meyers,2,23385945,2.75,1.5,2.0,3.0,4.0,1.25,2.75,1.25,2.29,1,,,,,,
+Timothy Porter,4,21350585,1.25,5.0,2.0,5.0,4.0,,,,3.45,3,,,,,,
+Jennifer Eaton,4,21839684,1.5,1.5,1.25,2.5,4.0,,,,2.15,1,,,,,,
+Brianna Horton,3,22764993,2.5,3.0,2.75,2.5,2.5,1.0,5.0,,2.75,1,,,,,,
+Dustin White,2,23843776,2.5,1.0,1.25,1.0,2.25,2.75,1.25,1.5,1.65,0,,,,,,
+Amy Martinez,3,22638995,2.75,2.75,2.0,1.0,4.0,1.75,2.75,,2.43,1,,,,,,
